@@ -2,7 +2,7 @@
  * @Author: Yen-Ju Chen  mru.11@nycu.edu.tw
  * @Date: 2023-02-28 15:29:44
  * @LastEditors: Yen-Ju Chen  mru.11@nycu.edu.tw
- * @LastEditTime: 2023-03-18 00:07:42
+ * @LastEditTime: 2023-03-18 00:24:43
  * @FilePath: /mru/Knowledge-Distillation/ReadMe.md
  * @Description: 
  * 
@@ -44,12 +44,12 @@ Note: Make sure that the pretrained model `resnet-50.pth` is at the path `./`
 ## Run code
 - KD & pruning:
     ```sh
-    python3 main.py --fname test
+    python3 main.py --fname testing
     ```
 
 - Evaluation:
     ```sh
-    python3 predict.py ./logs/test/pruned_model.pth
+    python3 predict.py ./logs/testing/pruned_model.pth
     ```
     Note: running this code will generate `pred.csv`
 
