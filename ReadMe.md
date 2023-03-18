@@ -2,7 +2,7 @@
  * @Author: Yen-Ju Chen  mru.11@nycu.edu.tw
  * @Date: 2023-02-28 15:29:44
  * @LastEditors: Yen-Ju Chen  mru.11@nycu.edu.tw
- * @LastEditTime: 2023-03-18 11:31:36
+ * @LastEditTime: 2023-03-18 12:22:55
  * @FilePath: /mru/Knowledge-Distillation/ReadMe.md
  * @Description: 
  * 
@@ -10,7 +10,7 @@
 # Knowledge Distillation
 **2023 Spring, Data Science HW2**
 
-[\[Spec\]](./assests/HW2-Model%20Compression-v1.pdf), [\[Lecture\]](./assests/Lecture%202%20-%20Model%20Compression.pdf)
+[\[Spec v1\]](./assests/HW2-Model%20Compression-v1.pdf), [\[Spec v2\]](./assests/HW2-Model%20Compression-v2.pdf), [\[Lecture\]](./assests/Lecture%202%20-%20Model%20Compression.pdf)
 
 <br/>
 
