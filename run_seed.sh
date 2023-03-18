@@ -2,7 +2,7 @@
  # @Author: Yen-Ju Chen  mru.11@nycu.edu.tw
  # @Date: 2023-03-14 10:52:31
  # @LastEditors: Yen-Ju Chen  mru.11@nycu.edu.tw
- # @LastEditTime: 2023-03-18 12:16:01
+ # @LastEditTime: 2023-03-18 20:09:18
  # @FilePath: /mru/Knowledge-Distillation/run_seed.sh
  # @Description: 
  # 
@@ -10,7 +10,7 @@
 source myenv/bin/activate
 tmp=3
 log_root="./logs/seed"
-for seed in 777 77 7 666 66 6 555 55 5
+for seed in 777 77 7 666 66 6 555 55 5 8 88 888
 do
     python3 main.py --log_root $log_root --kd_T 2.0 --kd_weight 0.4 --cls_weight 0.8 --optimizer adam --seed $seed --device cuda:3 --fname $((1 + tmp * 8))&
     python3 main.py --log_root $log_root --kd_T 4.0 --kd_weight 0.6 --cls_weight 0.6 --optimizer adam --seed $seed --device cuda:3 --fname $((2 + tmp * 8))&

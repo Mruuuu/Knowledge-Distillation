@@ -2,7 +2,7 @@
 Author: Yen-Ju Chen  mru.11@nycu.edu.tw
 Date: 2023-03-10 09:39:18
 LastEditors: Yen-Ju Chen  mru.11@nycu.edu.tw
-LastEditTime: 2023-03-18 12:13:21
+LastEditTime: 2023-03-18 20:07:19
 FilePath: /mru/Knowledge-Distillation/main.py
 Description: 
     1. load a well-pretrained student model
@@ -55,14 +55,14 @@ def parse_args():
     parser.add_argument('--num_workers', default=16, type=int, help='number of data loading threads')
     parser.add_argument('--optimizer', default="Adam", choices=['adam', 'rmsprop', 'sgd'])
     parser.add_argument('--schedular', default="ReduceLROnPlateau", choices=['ReduceLROnPlateau'])
-    parser.add_argument('--seed', default=777, type=int, help='manual seed')
+    parser.add_argument('--seed', default=77, type=int, help='manual seed')
     parser.add_argument('--val_freq', default=10, type=int, help='validation frequency')
     parser.add_argument('--weight_decay', type=float, default=5e-4, help='weight decay')
 
     # knowledge distillation
-    parser.add_argument('--cls_weight', type=float, default=0.8, help='loss weight')
+    parser.add_argument('--cls_weight', type=float, default=0.4, help='loss weight')
     parser.add_argument('--criterion_kd', default='vanilla_kd', choices=['vanilla_kd'], help='knowledge distillation criterion')
-    parser.add_argument('--kd_T', type=float, default=2.0, help='temperature for KD distillation')
+    parser.add_argument('--kd_T', type=float, default=6.0, help='temperature for KD distillation')
     parser.add_argument('--kd_weight', type=float, default=0.4, help='loss weight')
     parser.add_argument('--student_model', default="resnet14", choices=['resnet14'], help='student model')
 
