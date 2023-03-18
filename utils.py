@@ -2,7 +2,7 @@
 Author: Yen-Ju Chen  mru.11@nycu.edu.tw
 Date: 2023-03-10 10:58:15
 LastEditors: Yen-Ju Chen  mru.11@nycu.edu.tw
-LastEditTime: 2023-03-18 00:24:54
+LastEditTime: 2023-03-18 11:44:33
 FilePath: /mru/Knowledge-Distillation/utils.py
 Description: 
 
@@ -31,8 +31,8 @@ def log_file(log_root: str, data: dict, fname=None):
         os.mkdir(log_root)
     if not os.path.isdir(log_dir):
         os.mkdir(log_dir)
-    elif fname == "testing" and os.path.isdir(log_dir):
-        print("Removing the original testing file...")
+    elif fname in ["testing", "test"] and os.path.isdir(log_dir):
+        print("Removing the original test / testing file...")
         shutil.rmtree(log_dir)
         os.mkdir(log_dir)
     else:

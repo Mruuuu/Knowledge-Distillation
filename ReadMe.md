@@ -2,7 +2,7 @@
  * @Author: Yen-Ju Chen  mru.11@nycu.edu.tw
  * @Date: 2023-02-28 15:29:44
  * @LastEditors: Yen-Ju Chen  mru.11@nycu.edu.tw
- * @LastEditTime: 2023-03-18 11:26:11
+ * @LastEditTime: 2023-03-18 11:31:36
  * @FilePath: /mru/Knowledge-Distillation/ReadMe.md
  * @Description: 
  * 
@@ -20,6 +20,7 @@
 ├── assets/
 ├── data (after running the code below)/
 ├── Readme.md
+├── run_seed.sh
 ├── resnet-50.pth
 ├── requirements.txt
 ├── kd_loss.py
@@ -30,6 +31,7 @@
 └── utils.py
 ```
 Note: Make sure that the pretrained model `resnet-50.pth` is at the path `./`
+
 Note: The well-trained pruned model can be found at `./assests`
 
 <br/>
@@ -59,6 +61,18 @@ Note: The well-trained pruned model can be found at `./assests`
     python3 predict.py ./assests/best_pruned_model.pth
     ```
     Note: running this code will generate `pred.csv`
+
+<br/>
+
+## Hyperparmeter tuning
+- seed tuning
+    ```sh
+    chmod +x ./run_seed.sh
+    ./run_seed.sh
+    ```
+    Note: one can modify this file to tune any parameter
+
+<br/>
 
 ## Referenced
 - https://github.com/DefangChen/SimKD

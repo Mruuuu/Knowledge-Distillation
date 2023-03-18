@@ -128,9 +128,12 @@ def resnet14(**kwargs):
 # testing
 # if __name__ == '__main__':
 
+#     torch.manual_seed(10)
+#     torch.cuda.manual_seed_all(10)
 #     x = torch.randn(2, 3, 28, 28)
 #     net = resnet14(num_classes=10)
 #     output = net(x)
+#     print(output)
 
 #     print(output.shape)
     

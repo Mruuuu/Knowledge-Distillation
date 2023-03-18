@@ -2,7 +2,7 @@
 Author: Yen-Ju Chen  mru.11@nycu.edu.tw
 Date: 2023-03-10 09:39:18
 LastEditors: Yen-Ju Chen  mru.11@nycu.edu.tw
-LastEditTime: 2023-03-17 22:38:15
+LastEditTime: 2023-03-18 12:13:21
 FilePath: /mru/Knowledge-Distillation/main.py
 Description: 
     1. load a well-pretrained student model
@@ -18,6 +18,7 @@ Reference:
 import os
 import random
 import argparse
+import numpy as np
 from functools import partial
 
 # torch
@@ -106,8 +107,10 @@ if __name__ == '__main__':
     # --------------------- Random seed ---------------------
     print("Random Seed: ", args.seed)
     random.seed(args.seed)
+    np.random.seed(args.seed)
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed_all(args.seed)
+    torch.backends.cudnn.deterministic = True
 
 
     # --------------------- load train / test dataset --------------------- 
