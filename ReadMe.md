@@ -2,7 +2,7 @@
  * @Author: Yen-Ju Chen  mru.11@nycu.edu.tw
  * @Date: 2023-02-28 15:29:44
  * @LastEditors: Yen-Ju Chen  mru.11@nycu.edu.tw
- * @LastEditTime: 2023-03-18 12:22:55
+ * @LastEditTime: 2023-03-20 20:47:44
  * @FilePath: /mru/Knowledge-Distillation/ReadMe.md
  * @Description: 
  * 
@@ -54,13 +54,13 @@ Note: The well-trained pruned model can be found at `./assests`
     ```sh
     python3 predict.py ./logs/testing/pruned_model.pth
     ```
-    Note: running this code will generate `pred.csv`
+    Note: running this code will generate `pred.csv` and print the model summary
 
 - Directly test the well-trained pruned model
     ```sh
     python3 predict.py ./assests/best_pruned_model.pth
     ```
-    Note: running this code will generate `pred.csv`
+    Note: running this code will generate `pred.csv` and print the model summary
 
 <br/>
 
