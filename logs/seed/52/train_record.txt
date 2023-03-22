@@ -1,0 +1,655 @@
+
+=========================== Training ===========================
+[2023/03/18 20:32:14] 	 epoch : 001/300 	 Epoch loss:142.868397 	 Average loss:0.002381 	 Accuracy: 0.3754 	 KD loss: 668.290878 	 CLS loss: 46.051090
+[2023/03/18 20:32:18] 	 ### Accuracy on 10000 test images: 0.4397 Best accuracy so far: 0  =>  saving model... ###
+[2023/03/18 20:32:39] 	 epoch : 002/300 	 Epoch loss:79.088075 	 Average loss:0.001318 	 Accuracy: 0.6179 	 KD loss: 368.625256 	 CLS loss: 26.815112
+[2023/03/18 20:32:58] 	 epoch : 003/300 	 Epoch loss:45.876373 	 Average loss:0.000765 	 Accuracy: 0.7595 	 KD loss: 209.718544 	 CLS loss: 19.663318
+[2023/03/18 20:33:16] 	 epoch : 004/300 	 Epoch loss:31.739540 	 Average loss:0.000529 	 Accuracy: 0.8084 	 KD loss: 142.112926 	 CLS loss: 16.584773
+[2023/03/18 20:33:33] 	 epoch : 005/300 	 Epoch loss:24.505800 	 Average loss:0.000408 	 Accuracy: 0.8405 	 KD loss: 107.754892 	 CLS loss: 14.774103
+[2023/03/18 20:33:49] 	 epoch : 006/300 	 Epoch loss:19.942135 	 Average loss:0.000332 	 Accuracy: 0.8607 	 KD loss: 86.517824 	 CLS loss: 13.192850
+[2023/03/18 20:34:08] 	 epoch : 007/300 	 Epoch loss:17.443865 	 Average loss:0.000291 	 Accuracy: 0.8718 	 KD loss: 74.794983 	 CLS loss: 12.424339
+[2023/03/18 20:34:29] 	 epoch : 008/300 	 Epoch loss:15.639172 	 Average loss:0.000261 	 Accuracy: 0.8810 	 KD loss: 66.684660 	 CLS loss: 11.511196
+[2023/03/18 20:34:48] 	 epoch : 009/300 	 Epoch loss:14.576949 	 Average loss:0.000243 	 Accuracy: 0.8878 	 KD loss: 61.947835 	 CLS loss: 10.936911
+[2023/03/18 20:35:03] 	 epoch : 010/300 	 Epoch loss:13.718536 	 Average loss:0.000229 	 Accuracy: 0.8909 	 KD loss: 58.095509 	 CLS loss: 10.497171
+[2023/03/18 20:35:08] 	 ### Accuracy on 10000 test images: 0.8731 Best accuracy so far: 0.4397  =>  saving model... ###
+[2023/03/18 20:35:28] 	 epoch : 011/300 	 Epoch loss:13.309152 	 Average loss:0.000222 	 Accuracy: 0.8954 	 KD loss: 56.486642 	 CLS loss: 10.059117
+[2023/03/18 20:35:41] 	 epoch : 012/300 	 Epoch loss:12.333582 	 Average loss:0.000206 	 Accuracy: 0.8992 	 KD loss: 52.089663 	 CLS loss: 9.578248
+[2023/03/18 20:35:57] 	 epoch : 013/300 	 Epoch loss:12.003697 	 Average loss:0.000200 	 Accuracy: 0.9021 	 KD loss: 50.813206 	 CLS loss: 9.205276
+[2023/03/18 20:36:14] 	 epoch : 014/300 	 Epoch loss:11.812665 	 Average loss:0.000197 	 Accuracy: 0.9037 	 KD loss: 50.086193 	 CLS loss: 8.977131
+[2023/03/18 20:36:32] 	 epoch : 015/300 	 Epoch loss:11.158629 	 Average loss:0.000186 	 Accuracy: 0.9072 	 KD loss: 47.206722 	 CLS loss: 8.586421
+[2023/03/18 20:36:52] 	 epoch : 016/300 	 Epoch loss:10.914608 	 Average loss:0.000182 	 Accuracy: 0.9072 	 KD loss: 46.163993 	 CLS loss: 8.409048
+[2023/03/18 20:37:09] 	 epoch : 017/300 	 Epoch loss:10.755900 	 Average loss:0.000179 	 Accuracy: 0.9096 	 KD loss: 45.570988 	 CLS loss: 8.208511
+[2023/03/18 20:37:28] 	 epoch : 018/300 	 Epoch loss:10.241435 	 Average loss:0.000171 	 Accuracy: 0.9133 	 KD loss: 43.322705 	 CLS loss: 7.884467
+[2023/03/18 20:37:45] 	 epoch : 019/300 	 Epoch loss:9.935311 	 Average loss:0.000166 	 Accuracy: 0.9144 	 KD loss: 41.989088 	 CLS loss: 7.687468
+[2023/03/18 20:38:01] 	 epoch : 020/300 	 Epoch loss:9.997502 	 Average loss:0.000167 	 Accuracy: 0.9149 	 KD loss: 42.443190 	 CLS loss: 7.544318
+[2023/03/18 20:38:03] 	 ### Accuracy on 10000 test images: 0.8996 Best accuracy so far: 0.8731  =>  saving model... ###
+[2023/03/18 20:38:21] 	 epoch : 021/300 	 Epoch loss:9.634273 	 Average loss:0.000161 	 Accuracy: 0.9171 	 KD loss: 40.754417 	 CLS loss: 7.416948
+[2023/03/18 20:38:38] 	 epoch : 022/300 	 Epoch loss:9.336136 	 Average loss:0.000156 	 Accuracy: 0.9192 	 KD loss: 39.564579 	 CLS loss: 7.116099
+[2023/03/18 20:38:55] 	 epoch : 023/300 	 Epoch loss:9.117542 	 Average loss:0.000152 	 Accuracy: 0.9197 	 KD loss: 38.522816 	 CLS loss: 7.064894
+[2023/03/18 20:39:12] 	 epoch : 024/300 	 Epoch loss:9.236656 	 Average loss:0.000154 	 Accuracy: 0.9196 	 KD loss: 39.050880 	 CLS loss: 7.132400
+[2023/03/18 20:39:30] 	 epoch : 025/300 	 Epoch loss:8.684151 	 Average loss:0.000145 	 Accuracy: 0.9229 	 KD loss: 36.681644 	 CLS loss: 6.739112
+[2023/03/18 20:39:47] 	 epoch : 026/300 	 Epoch loss:8.744246 	 Average loss:0.000146 	 Accuracy: 0.9243 	 KD loss: 37.061104 	 CLS loss: 6.660127
+[2023/03/18 20:40:05] 	 epoch : 027/300 	 Epoch loss:8.654026 	 Average loss:0.000144 	 Accuracy: 0.9240 	 KD loss: 36.690808 	 CLS loss: 6.579319
+[2023/03/18 20:40:23] 	 epoch : 028/300 	 Epoch loss:8.505381 	 Average loss:0.000142 	 Accuracy: 0.9253 	 KD loss: 36.056107 	 CLS loss: 6.470796
+[2023/03/18 20:40:41] 	 epoch : 029/300 	 Epoch loss:8.559168 	 Average loss:0.000143 	 Accuracy: 0.9273 	 KD loss: 36.401068 	 CLS loss: 6.394770
+[2023/03/18 20:40:57] 	 epoch : 030/300 	 Epoch loss:8.184055 	 Average loss:0.000136 	 Accuracy: 0.9271 	 KD loss: 34.684897 	 CLS loss: 6.235377
+[2023/03/18 20:40:59] 	 ### Accuracy on 10000 test images: 0.9081 Best accuracy so far: 0.8996  =>  saving model... ###
+[2023/03/18 20:41:18] 	 epoch : 031/300 	 Epoch loss:8.320270 	 Average loss:0.000139 	 Accuracy: 0.9276 	 KD loss: 35.407059 	 CLS loss: 6.194292
+[2023/03/18 20:41:34] 	 epoch : 032/300 	 Epoch loss:8.112141 	 Average loss:0.000135 	 Accuracy: 0.9291 	 KD loss: 34.519831 	 CLS loss: 6.040872
+[2023/03/18 20:41:51] 	 epoch : 033/300 	 Epoch loss:7.794353 	 Average loss:0.000130 	 Accuracy: 0.9308 	 KD loss: 33.070738 	 CLS loss: 5.901026
+[2023/03/18 20:42:08] 	 epoch : 034/300 	 Epoch loss:7.938723 	 Average loss:0.000132 	 Accuracy: 0.9302 	 KD loss: 33.734612 	 CLS loss: 5.959001
+[2023/03/18 20:42:25] 	 epoch : 035/300 	 Epoch loss:7.793649 	 Average loss:0.000130 	 Accuracy: 0.9313 	 KD loss: 33.116530 	 CLS loss: 5.851717
+[2023/03/18 20:42:43] 	 epoch : 036/300 	 Epoch loss:7.455328 	 Average loss:0.000124 	 Accuracy: 0.9325 	 KD loss: 31.643304 	 CLS loss: 5.633338
+[2023/03/18 20:42:59] 	 epoch : 037/300 	 Epoch loss:7.582730 	 Average loss:0.000126 	 Accuracy: 0.9345 	 KD loss: 32.307553 	 CLS loss: 5.606096
+[2023/03/18 20:43:16] 	 epoch : 038/300 	 Epoch loss:7.266415 	 Average loss:0.000121 	 Accuracy: 0.9345 	 KD loss: 30.804288 	 CLS loss: 5.527784
+[2023/03/18 20:43:33] 	 epoch : 039/300 	 Epoch loss:7.355922 	 Average loss:0.000123 	 Accuracy: 0.9352 	 KD loss: 31.357992 	 CLS loss: 5.421619
+[2023/03/18 20:43:50] 	 epoch : 040/300 	 Epoch loss:7.143558 	 Average loss:0.000119 	 Accuracy: 0.9355 	 KD loss: 30.312424 	 CLS loss: 5.405363
+[2023/03/18 20:43:53] 	 ### Accuracy on 10000 test images: 0.9132 Best accuracy so far: 0.9081  =>  saving model... ###
+[2023/03/18 20:44:12] 	 epoch : 041/300 	 Epoch loss:6.967975 	 Average loss:0.000116 	 Accuracy: 0.9368 	 KD loss: 29.609595 	 CLS loss: 5.230277
+[2023/03/18 20:44:29] 	 epoch : 042/300 	 Epoch loss:7.165390 	 Average loss:0.000119 	 Accuracy: 0.9362 	 KD loss: 30.466549 	 CLS loss: 5.360399
+[2023/03/18 20:44:46] 	 epoch : 043/300 	 Epoch loss:6.981946 	 Average loss:0.000116 	 Accuracy: 0.9368 	 KD loss: 29.712933 	 CLS loss: 5.196798
+[2023/03/18 20:45:03] 	 epoch : 044/300 	 Epoch loss:6.955003 	 Average loss:0.000116 	 Accuracy: 0.9371 	 KD loss: 29.517339 	 CLS loss: 5.257675
+[2023/03/18 20:45:20] 	 epoch : 045/300 	 Epoch loss:6.981567 	 Average loss:0.000116 	 Accuracy: 0.9382 	 KD loss: 29.743861 	 CLS loss: 5.163971
+[2023/03/18 20:45:37] 	 epoch : 046/300 	 Epoch loss:6.864259 	 Average loss:0.000114 	 Accuracy: 0.9381 	 KD loss: 29.244685 	 CLS loss: 5.076608
+[2023/03/18 20:45:54] 	 epoch : 047/300 	 Epoch loss:6.964414 	 Average loss:0.000116 	 Accuracy: 0.9377 	 KD loss: 29.747222 	 CLS loss: 5.074847
+[2023/03/18 20:46:11] 	 epoch : 048/300 	 Epoch loss:6.837087 	 Average loss:0.000114 	 Accuracy: 0.9384 	 KD loss: 29.130861 	 CLS loss: 5.054574
+[2023/03/18 20:46:29] 	 epoch : 049/300 	 Epoch loss:6.626941 	 Average loss:0.000110 	 Accuracy: 0.9406 	 KD loss: 28.252808 	 CLS loss: 4.881898
+[2023/03/18 20:46:45] 	 epoch : 050/300 	 Epoch loss:6.709785 	 Average loss:0.000112 	 Accuracy: 0.9399 	 KD loss: 28.619964 	 CLS loss: 4.928963
+[2023/03/18 20:46:48] 	 ### Accuracy on 10000 test images: 0.9191 Best accuracy so far: 0.9132  =>  saving model... ###
+[2023/03/18 20:47:06] 	 epoch : 051/300 	 Epoch loss:6.463014 	 Average loss:0.000108 	 Accuracy: 0.9415 	 KD loss: 27.538017 	 CLS loss: 4.777050
+[2023/03/18 20:47:24] 	 epoch : 052/300 	 Epoch loss:6.536281 	 Average loss:0.000109 	 Accuracy: 0.9412 	 KD loss: 27.934041 	 CLS loss: 4.747363
+[2023/03/18 20:47:42] 	 epoch : 053/300 	 Epoch loss:6.602266 	 Average loss:0.000110 	 Accuracy: 0.9422 	 KD loss: 28.260153 	 CLS loss: 4.751175
+[2023/03/18 20:48:00] 	 epoch : 054/300 	 Epoch loss:6.530711 	 Average loss:0.000109 	 Accuracy: 0.9415 	 KD loss: 27.879767 	 CLS loss: 4.773788
+[2023/03/18 20:48:17] 	 epoch : 055/300 	 Epoch loss:6.546050 	 Average loss:0.000109 	 Accuracy: 0.9410 	 KD loss: 27.912025 	 CLS loss: 4.818223
+[2023/03/18 20:48:35] 	 epoch : 056/300 	 Epoch loss:6.228333 	 Average loss:0.000104 	 Accuracy: 0.9436 	 KD loss: 26.572932 	 CLS loss: 4.568731
+[2023/03/18 20:48:53] 	 epoch : 057/300 	 Epoch loss:6.223934 	 Average loss:0.000104 	 Accuracy: 0.9434 	 KD loss: 26.521864 	 CLS loss: 4.597807
+[2023/03/18 20:49:09] 	 epoch : 058/300 	 Epoch loss:6.091760 	 Average loss:0.000102 	 Accuracy: 0.9449 	 KD loss: 25.990377 	 CLS loss: 4.468422
+[2023/03/18 20:49:26] 	 epoch : 059/300 	 Epoch loss:6.315191 	 Average loss:0.000105 	 Accuracy: 0.9452 	 KD loss: 27.125190 	 CLS loss: 4.450763
+[2023/03/18 20:49:41] 	 epoch : 060/300 	 Epoch loss:6.029487 	 Average loss:0.000100 	 Accuracy: 0.9460 	 KD loss: 25.703987 	 CLS loss: 4.443447
+[2023/03/18 20:49:43] 	 ### Accuracy on 10000 test images: 0.9170 Best accuracy so far: 0.9191 ###
+[2023/03/18 20:49:59] 	 epoch : 061/300 	 Epoch loss:5.927965 	 Average loss:0.000099 	 Accuracy: 0.9457 	 KD loss: 25.271383 	 CLS loss: 4.368441
+[2023/03/18 20:50:16] 	 epoch : 062/300 	 Epoch loss:6.115959 	 Average loss:0.000102 	 Accuracy: 0.9445 	 KD loss: 26.141970 	 CLS loss: 4.437825
+[2023/03/18 20:50:33] 	 epoch : 063/300 	 Epoch loss:6.157186 	 Average loss:0.000103 	 Accuracy: 0.9460 	 KD loss: 26.464981 	 CLS loss: 4.320950
+[2023/03/18 20:50:50] 	 epoch : 064/300 	 Epoch loss:6.000437 	 Average loss:0.000100 	 Accuracy: 0.9476 	 KD loss: 25.739997 	 CLS loss: 4.262188
+[2023/03/18 20:51:07] 	 epoch : 065/300 	 Epoch loss:5.819412 	 Average loss:0.000097 	 Accuracy: 0.9476 	 KD loss: 24.927278 	 CLS loss: 4.169783
+[2023/03/18 20:51:25] 	 epoch : 066/300 	 Epoch loss:5.926698 	 Average loss:0.000099 	 Accuracy: 0.9471 	 KD loss: 25.422666 	 CLS loss: 4.210823
+[2023/03/18 20:51:42] 	 epoch : 067/300 	 Epoch loss:5.880954 	 Average loss:0.000098 	 Accuracy: 0.9487 	 KD loss: 25.244468 	 CLS loss: 4.160302
+[2023/03/18 20:52:00] 	 epoch : 068/300 	 Epoch loss:5.831060 	 Average loss:0.000097 	 Accuracy: 0.9477 	 KD loss: 24.967181 	 CLS loss: 4.188119
+[2023/03/18 20:52:18] 	 epoch : 069/300 	 Epoch loss:5.691703 	 Average loss:0.000095 	 Accuracy: 0.9496 	 KD loss: 24.419276 	 CLS loss: 4.039236
+[2023/03/18 20:52:34] 	 epoch : 070/300 	 Epoch loss:5.699372 	 Average loss:0.000095 	 Accuracy: 0.9496 	 KD loss: 24.381348 	 CLS loss: 4.115509
+[2023/03/18 20:52:37] 	 ### Accuracy on 10000 test images: 0.9161 Best accuracy so far: 0.9191 ###
+[2023/03/18 20:52:54] 	 epoch : 071/300 	 Epoch loss:5.756548 	 Average loss:0.000096 	 Accuracy: 0.9493 	 KD loss: 24.720776 	 CLS loss: 4.061965
+[2023/03/18 20:53:11] 	 epoch : 072/300 	 Epoch loss:5.454054 	 Average loss:0.000091 	 Accuracy: 0.9495 	 KD loss: 23.284527 	 CLS loss: 3.985741
+[2023/03/18 20:53:29] 	 epoch : 073/300 	 Epoch loss:5.689543 	 Average loss:0.000095 	 Accuracy: 0.9488 	 KD loss: 24.377868 	 CLS loss: 4.069847
+[2023/03/18 20:53:46] 	 epoch : 074/300 	 Epoch loss:5.487957 	 Average loss:0.000091 	 Accuracy: 0.9513 	 KD loss: 23.530661 	 CLS loss: 3.909124
+[2023/03/18 20:54:04] 	 epoch : 075/300 	 Epoch loss:5.698892 	 Average loss:0.000095 	 Accuracy: 0.9493 	 KD loss: 24.459596 	 CLS loss: 4.034864
+[2023/03/18 20:54:21] 	 epoch : 076/300 	 Epoch loss:5.568707 	 Average loss:0.000093 	 Accuracy: 0.9497 	 KD loss: 23.853318 	 CLS loss: 3.990214
+[2023/03/18 20:54:37] 	 epoch : 077/300 	 Epoch loss:5.536749 	 Average loss:0.000092 	 Accuracy: 0.9510 	 KD loss: 23.794378 	 CLS loss: 3.889366
+[2023/03/18 20:54:53] 	 epoch : 078/300 	 Epoch loss:5.492122 	 Average loss:0.000092 	 Accuracy: 0.9516 	 KD loss: 23.611879 	 CLS loss: 3.848733
+[2023/03/18 20:55:10] 	 epoch : 079/300 	 Epoch loss:5.433876 	 Average loss:0.000091 	 Accuracy: 0.9515 	 KD loss: 23.326022 	 CLS loss: 3.843360
+[2023/03/18 20:55:28] 	 epoch : 080/300 	 Epoch loss:5.339209 	 Average loss:0.000089 	 Accuracy: 0.9534 	 KD loss: 22.943255 	 CLS loss: 3.752790
+[2023/03/18 20:55:30] 	 ### Accuracy on 10000 test images: 0.9066 Best accuracy so far: 0.9191 ###
+[2023/03/18 20:55:48] 	 epoch : 081/300 	 Epoch loss:5.415733 	 Average loss:0.000090 	 Accuracy: 0.9521 	 KD loss: 23.240327 	 CLS loss: 3.838340
+[2023/03/18 20:56:06] 	 epoch : 082/300 	 Epoch loss:5.323237 	 Average loss:0.000089 	 Accuracy: 0.9524 	 KD loss: 22.804963 	 CLS loss: 3.811219
+[2023/03/18 20:56:24] 	 epoch : 083/300 	 Epoch loss:5.279998 	 Average loss:0.000088 	 Accuracy: 0.9517 	 KD loss: 22.664493 	 CLS loss: 3.735497
+[2023/03/18 20:56:42] 	 epoch : 084/300 	 Epoch loss:5.584537 	 Average loss:0.000093 	 Accuracy: 0.9507 	 KD loss: 23.970290 	 CLS loss: 3.952393
+[2023/03/18 20:57:00] 	 epoch : 085/300 	 Epoch loss:5.370061 	 Average loss:0.000090 	 Accuracy: 0.9528 	 KD loss: 23.115279 	 CLS loss: 3.735025
+[2023/03/18 20:57:18] 	 epoch : 086/300 	 Epoch loss:5.136632 	 Average loss:0.000086 	 Accuracy: 0.9544 	 KD loss: 22.092317 	 CLS loss: 3.590841
+[2023/03/18 20:57:36] 	 epoch : 087/300 	 Epoch loss:5.239331 	 Average loss:0.000087 	 Accuracy: 0.9528 	 KD loss: 22.499470 	 CLS loss: 3.697186
+[2023/03/18 20:57:54] 	 epoch : 088/300 	 Epoch loss:5.223236 	 Average loss:0.000087 	 Accuracy: 0.9552 	 KD loss: 22.518651 	 CLS loss: 3.597528
+[2023/03/18 20:58:12] 	 epoch : 089/300 	 Epoch loss:5.278441 	 Average loss:0.000088 	 Accuracy: 0.9533 	 KD loss: 22.692866 	 CLS loss: 3.699336
+[2023/03/18 20:58:29] 	 epoch : 090/300 	 Epoch loss:5.161376 	 Average loss:0.000086 	 Accuracy: 0.9543 	 KD loss: 22.211168 	 CLS loss: 3.595711
+[2023/03/18 20:58:32] 	 ### Accuracy on 10000 test images: 0.9181 Best accuracy so far: 0.9191 ###
+[2023/03/18 20:58:49] 	 epoch : 091/300 	 Epoch loss:5.164862 	 Average loss:0.000086 	 Accuracy: 0.9547 	 KD loss: 22.240893 	 CLS loss: 3.583413
+[2023/03/18 20:59:04] 	 epoch : 092/300 	 Epoch loss:4.940260 	 Average loss:0.000082 	 Accuracy: 0.9558 	 KD loss: 21.220002 	 CLS loss: 3.481298
+[2023/03/18 20:59:20] 	 epoch : 093/300 	 Epoch loss:5.254695 	 Average loss:0.000088 	 Accuracy: 0.9553 	 KD loss: 22.720949 	 CLS loss: 3.552524
+[2023/03/18 20:59:36] 	 epoch : 094/300 	 Epoch loss:5.154538 	 Average loss:0.000086 	 Accuracy: 0.9547 	 KD loss: 22.242932 	 CLS loss: 3.529760
+[2023/03/18 20:59:53] 	 epoch : 095/300 	 Epoch loss:5.025195 	 Average loss:0.000084 	 Accuracy: 0.9559 	 KD loss: 21.622731 	 CLS loss: 3.503245
+[2023/03/18 21:00:09] 	 epoch : 096/300 	 Epoch loss:5.022772 	 Average loss:0.000084 	 Accuracy: 0.9558 	 KD loss: 21.652436 	 CLS loss: 3.461425
+[2023/03/18 21:00:27] 	 epoch : 097/300 	 Epoch loss:5.211858 	 Average loss:0.000087 	 Accuracy: 0.9553 	 KD loss: 22.566357 	 CLS loss: 3.492932
+[2023/03/18 21:00:44] 	 epoch : 098/300 	 Epoch loss:4.990221 	 Average loss:0.000083 	 Accuracy: 0.9557 	 KD loss: 21.518716 	 CLS loss: 3.432388
+[2023/03/18 21:01:03] 	 epoch : 099/300 	 Epoch loss:5.070655 	 Average loss:0.000085 	 Accuracy: 0.9561 	 KD loss: 21.886517 	 CLS loss: 3.466759
+[2023/03/18 21:01:21] 	 epoch : 100/300 	 Epoch loss:5.002017 	 Average loss:0.000083 	 Accuracy: 0.9574 	 KD loss: 21.619128 	 CLS loss: 3.390958
+[2023/03/18 21:01:23] 	 ### Accuracy on 10000 test images: 0.9163 Best accuracy so far: 0.9191 ###
+[2023/03/18 21:01:41] 	 epoch : 101/300 	 Epoch loss:4.855753 	 Average loss:0.000081 	 Accuracy: 0.9573 	 KD loss: 20.937901 	 CLS loss: 3.340861
+[2023/03/18 21:02:00] 	 epoch : 102/300 	 Epoch loss:5.039466 	 Average loss:0.000084 	 Accuracy: 0.9559 	 KD loss: 21.760475 	 CLS loss: 3.436853
+[2023/03/18 21:02:18] 	 epoch : 103/300 	 Epoch loss:4.867036 	 Average loss:0.000081 	 Accuracy: 0.9568 	 KD loss: 20.942116 	 CLS loss: 3.393063
+[2023/03/18 21:02:36] 	 epoch : 104/300 	 Epoch loss:4.962577 	 Average loss:0.000083 	 Accuracy: 0.9574 	 KD loss: 21.463994 	 CLS loss: 3.348890
+[2023/03/18 21:02:54] 	 epoch : 105/300 	 Epoch loss:4.646915 	 Average loss:0.000077 	 Accuracy: 0.9592 	 KD loss: 20.042898 	 CLS loss: 3.191679
+[2023/03/18 21:03:12] 	 epoch : 106/300 	 Epoch loss:4.927893 	 Average loss:0.000082 	 Accuracy: 0.9602 	 KD loss: 21.444921 	 CLS loss: 3.194546
+[2023/03/18 21:03:30] 	 epoch : 107/300 	 Epoch loss:4.829446 	 Average loss:0.000080 	 Accuracy: 0.9592 	 KD loss: 20.944808 	 CLS loss: 3.202424
+[2023/03/18 21:03:48] 	 epoch : 108/300 	 Epoch loss:4.708820 	 Average loss:0.000078 	 Accuracy: 0.9592 	 KD loss: 20.286603 	 CLS loss: 3.257496
+[2023/03/18 21:04:05] 	 epoch : 109/300 	 Epoch loss:4.689741 	 Average loss:0.000078 	 Accuracy: 0.9595 	 KD loss: 20.222538 	 CLS loss: 3.226166
+[2023/03/18 21:04:22] 	 epoch : 110/300 	 Epoch loss:4.890064 	 Average loss:0.000082 	 Accuracy: 0.9586 	 KD loss: 21.162335 	 CLS loss: 3.287984
+[2023/03/18 21:04:24] 	 ### Accuracy on 10000 test images: 0.9123 Best accuracy so far: 0.9191 ###
+[2023/03/18 21:04:41] 	 epoch : 111/300 	 Epoch loss:4.637714 	 Average loss:0.000077 	 Accuracy: 0.9596 	 KD loss: 19.961500 	 CLS loss: 3.227069
+[2023/03/18 21:04:57] 	 epoch : 112/300 	 Epoch loss:4.620111 	 Average loss:0.000077 	 Accuracy: 0.9600 	 KD loss: 19.947171 	 CLS loss: 3.153385
+[2023/03/18 21:05:12] 	 epoch : 113/300 	 Epoch loss:4.681147 	 Average loss:0.000078 	 Accuracy: 0.9600 	 KD loss: 20.248972 	 CLS loss: 3.156763
+[2023/03/18 21:05:29] 	 epoch : 114/300 	 Epoch loss:4.624808 	 Average loss:0.000077 	 Accuracy: 0.9597 	 KD loss: 19.943683 	 CLS loss: 3.180357
+[2023/03/18 21:05:46] 	 epoch : 115/300 	 Epoch loss:4.547233 	 Average loss:0.000076 	 Accuracy: 0.9615 	 KD loss: 19.689658 	 CLS loss: 3.046504
+[2023/03/18 21:06:04] 	 epoch : 116/300 	 Epoch loss:4.800974 	 Average loss:0.000080 	 Accuracy: 0.9590 	 KD loss: 20.811741 	 CLS loss: 3.193129
+[2023/03/18 21:06:21] 	 epoch : 117/300 	 Epoch loss:4.824344 	 Average loss:0.000080 	 Accuracy: 0.9590 	 KD loss: 20.926759 	 CLS loss: 3.194959
+[2023/03/18 21:06:39] 	 epoch : 118/300 	 Epoch loss:4.631846 	 Average loss:0.000077 	 Accuracy: 0.9602 	 KD loss: 20.046580 	 CLS loss: 3.112650
+[2023/03/18 21:06:56] 	 epoch : 119/300 	 Epoch loss:4.611714 	 Average loss:0.000077 	 Accuracy: 0.9599 	 KD loss: 19.919610 	 CLS loss: 3.138958
+[2023/03/18 21:07:14] 	 epoch : 120/300 	 Epoch loss:4.764799 	 Average loss:0.000079 	 Accuracy: 0.9606 	 KD loss: 20.713307 	 CLS loss: 3.110688
+[2023/03/18 21:07:16] 	 ### Accuracy on 10000 test images: 0.9189 Best accuracy so far: 0.9191 ###
+[2023/03/18 21:07:34] 	 epoch : 121/300 	 Epoch loss:4.759526 	 Average loss:0.000079 	 Accuracy: 0.9601 	 KD loss: 20.675887 	 CLS loss: 3.121741
+[2023/03/18 21:07:52] 	 epoch : 122/300 	 Epoch loss:4.529431 	 Average loss:0.000075 	 Accuracy: 0.9614 	 KD loss: 19.585172 	 CLS loss: 3.061981
+[2023/03/18 21:08:09] 	 epoch : 123/300 	 Epoch loss:4.452414 	 Average loss:0.000074 	 Accuracy: 0.9622 	 KD loss: 19.298969 	 CLS loss: 2.963103
+[2023/03/18 21:08:28] 	 epoch : 124/300 	 Epoch loss:4.535587 	 Average loss:0.000076 	 Accuracy: 0.9617 	 KD loss: 19.629032 	 CLS loss: 3.048903
+[2023/03/18 21:08:45] 	 epoch : 125/300 	 Epoch loss:4.505930 	 Average loss:0.000075 	 Accuracy: 0.9628 	 KD loss: 19.559083 	 CLS loss: 2.970566
+[2023/03/18 21:09:03] 	 epoch : 126/300 	 Epoch loss:4.471003 	 Average loss:0.000075 	 Accuracy: 0.9630 	 KD loss: 19.404551 	 CLS loss: 2.950464
+[2023/03/18 21:09:21] 	 epoch : 127/300 	 Epoch loss:4.550850 	 Average loss:0.000076 	 Accuracy: 0.9624 	 KD loss: 19.781058 	 CLS loss: 2.973189
+[2023/03/18 21:09:38] 	 epoch : 128/300 	 Epoch loss:4.554857 	 Average loss:0.000076 	 Accuracy: 0.9622 	 KD loss: 19.765847 	 CLS loss: 3.008436
+[2023/03/18 21:09:55] 	 epoch : 129/300 	 Epoch loss:4.541736 	 Average loss:0.000076 	 Accuracy: 0.9633 	 KD loss: 19.767829 	 CLS loss: 2.940851
+[2023/03/18 21:10:11] 	 epoch : 130/300 	 Epoch loss:4.563591 	 Average loss:0.000076 	 Accuracy: 0.9615 	 KD loss: 19.839220 	 CLS loss: 2.978737
+[2023/03/18 21:10:13] 	 ### Accuracy on 10000 test images: 0.9172 Best accuracy so far: 0.9191 ###
+[2023/03/18 21:10:29] 	 epoch : 131/300 	 Epoch loss:4.457276 	 Average loss:0.000074 	 Accuracy: 0.9638 	 KD loss: 19.388874 	 CLS loss: 2.897506
+[2023/03/18 21:10:46] 	 epoch : 132/300 	 Epoch loss:4.387636 	 Average loss:0.000073 	 Accuracy: 0.9636 	 KD loss: 19.030320 	 CLS loss: 2.907862
+[2023/03/18 21:11:04] 	 epoch : 133/300 	 Epoch loss:4.384835 	 Average loss:0.000073 	 Accuracy: 0.9632 	 KD loss: 19.020612 	 CLS loss: 2.903565
+[2023/03/18 21:11:21] 	 epoch : 134/300 	 Epoch loss:4.297918 	 Average loss:0.000072 	 Accuracy: 0.9644 	 KD loss: 18.657881 	 CLS loss: 2.831707
+[2023/03/18 21:11:38] 	 epoch : 135/300 	 Epoch loss:4.272734 	 Average loss:0.000071 	 Accuracy: 0.9644 	 KD loss: 18.535603 	 CLS loss: 2.828065
+[2023/03/18 21:11:55] 	 epoch : 136/300 	 Epoch loss:4.252624 	 Average loss:0.000071 	 Accuracy: 0.9652 	 KD loss: 18.492130 	 CLS loss: 2.770990
+[2023/03/18 21:12:11] 	 epoch : 137/300 	 Epoch loss:4.476786 	 Average loss:0.000075 	 Accuracy: 0.9628 	 KD loss: 19.453861 	 CLS loss: 2.930071
+[2023/03/18 21:12:28] 	 epoch : 138/300 	 Epoch loss:4.396209 	 Average loss:0.000073 	 Accuracy: 0.9637 	 KD loss: 19.066848 	 CLS loss: 2.914198
+[2023/03/18 21:12:46] 	 epoch : 139/300 	 Epoch loss:4.587072 	 Average loss:0.000076 	 Accuracy: 0.9612 	 KD loss: 19.897173 	 CLS loss: 3.038186
+[2023/03/18 21:13:02] 	 epoch : 140/300 	 Epoch loss:4.473437 	 Average loss:0.000075 	 Accuracy: 0.9632 	 KD loss: 19.455536 	 CLS loss: 2.911650
+[2023/03/18 21:13:05] 	 ### Accuracy on 10000 test images: 0.9180 Best accuracy so far: 0.9191 ###
+[2023/03/18 21:13:23] 	 epoch : 141/300 	 Epoch loss:4.341880 	 Average loss:0.000072 	 Accuracy: 0.9639 	 KD loss: 18.853725 	 CLS loss: 2.855673
+[2023/03/18 21:13:41] 	 epoch : 142/300 	 Epoch loss:4.362756 	 Average loss:0.000073 	 Accuracy: 0.9633 	 KD loss: 18.907531 	 CLS loss: 2.906250
+[2023/03/18 21:13:59] 	 epoch : 143/300 	 Epoch loss:4.308900 	 Average loss:0.000072 	 Accuracy: 0.9642 	 KD loss: 18.713019 	 CLS loss: 2.831479
+[2023/03/18 21:14:17] 	 epoch : 144/300 	 Epoch loss:4.461084 	 Average loss:0.000074 	 Accuracy: 0.9632 	 KD loss: 19.411962 	 CLS loss: 2.893459
+[2023/03/18 21:14:35] 	 epoch : 145/300 	 Epoch loss:4.287249 	 Average loss:0.000071 	 Accuracy: 0.9643 	 KD loss: 18.620369 	 CLS loss: 2.815874
+[2023/03/18 21:14:53] 	 epoch : 146/300 	 Epoch loss:4.281796 	 Average loss:0.000071 	 Accuracy: 0.9650 	 KD loss: 18.620396 	 CLS loss: 2.788585
+[2023/03/18 21:15:10] 	 epoch : 147/300 	 Epoch loss:4.130448 	 Average loss:0.000069 	 Accuracy: 0.9660 	 KD loss: 17.944941 	 CLS loss: 2.707300
+[2023/03/18 21:15:27] 	 epoch : 148/300 	 Epoch loss:4.395807 	 Average loss:0.000073 	 Accuracy: 0.9644 	 KD loss: 19.177837 	 CLS loss: 2.801197
+[2023/03/18 21:15:44] 	 epoch : 149/300 	 Epoch loss:4.244002 	 Average loss:0.000071 	 Accuracy: 0.9642 	 KD loss: 18.426981 	 CLS loss: 2.793029
+[2023/03/18 21:16:00] 	 epoch : 150/300 	 Epoch loss:4.299923 	 Average loss:0.000072 	 Accuracy: 0.9649 	 KD loss: 18.738520 	 CLS loss: 2.761093
+[2023/03/18 21:16:03] 	 ### Accuracy on 10000 test images: 0.9151 Best accuracy so far: 0.9191 ###
+[2023/03/18 21:16:19] 	 epoch : 151/300 	 Epoch loss:4.226342 	 Average loss:0.000070 	 Accuracy: 0.9648 	 KD loss: 18.356879 	 CLS loss: 2.774832
+[2023/03/18 21:16:36] 	 epoch : 152/300 	 Epoch loss:4.162621 	 Average loss:0.000069 	 Accuracy: 0.9659 	 KD loss: 18.130518 	 CLS loss: 2.682587
+[2023/03/18 21:16:54] 	 epoch : 153/300 	 Epoch loss:4.155838 	 Average loss:0.000069 	 Accuracy: 0.9668 	 KD loss: 18.113759 	 CLS loss: 2.665433
+[2023/03/18 21:17:11] 	 epoch : 154/300 	 Epoch loss:4.144610 	 Average loss:0.000069 	 Accuracy: 0.9676 	 KD loss: 18.075034 	 CLS loss: 2.648016
+[2023/03/18 21:17:27] 	 epoch : 155/300 	 Epoch loss:4.163333 	 Average loss:0.000069 	 Accuracy: 0.9654 	 KD loss: 18.080492 	 CLS loss: 2.736171
+[2023/03/18 21:17:44] 	 epoch : 156/300 	 Epoch loss:4.303767 	 Average loss:0.000072 	 Accuracy: 0.9654 	 KD loss: 18.761007 	 CLS loss: 2.757828
+[2023/03/18 21:18:01] 	 epoch : 157/300 	 Epoch loss:4.202279 	 Average loss:0.000070 	 Accuracy: 0.9651 	 KD loss: 18.258808 	 CLS loss: 2.752586
+[2023/03/18 21:18:19] 	 epoch : 158/300 	 Epoch loss:4.314758 	 Average loss:0.000072 	 Accuracy: 0.9632 	 KD loss: 18.701449 	 CLS loss: 2.872342
+[2023/03/18 21:18:37] 	 epoch : 159/300 	 Epoch loss:4.122331 	 Average loss:0.000069 	 Accuracy: 0.9663 	 KD loss: 17.906712 	 CLS loss: 2.704943
+[2023/03/18 21:18:54] 	 epoch : 160/300 	 Epoch loss:4.341962 	 Average loss:0.000072 	 Accuracy: 0.9666 	 KD loss: 19.032027 	 CLS loss: 2.677784
+[2023/03/18 21:18:57] 	 ### Accuracy on 10000 test images: 0.9189 Best accuracy so far: 0.9191 ###
+[2023/03/18 21:19:14] 	 epoch : 161/300 	 Epoch loss:4.140921 	 Average loss:0.000069 	 Accuracy: 0.9660 	 KD loss: 18.024109 	 CLS loss: 2.680495
+[2023/03/18 21:19:31] 	 epoch : 162/300 	 Epoch loss:4.198455 	 Average loss:0.000070 	 Accuracy: 0.9660 	 KD loss: 18.281582 	 CLS loss: 2.710690
+[2023/03/18 21:19:48] 	 epoch : 163/300 	 Epoch loss:4.039707 	 Average loss:0.000067 	 Accuracy: 0.9680 	 KD loss: 17.600892 	 CLS loss: 2.597644
+[2023/03/18 21:20:05] 	 epoch : 164/300 	 Epoch loss:3.950953 	 Average loss:0.000066 	 Accuracy: 0.9685 	 KD loss: 17.195176 	 CLS loss: 2.559590
+[2023/03/18 21:20:22] 	 epoch : 165/300 	 Epoch loss:4.118990 	 Average loss:0.000069 	 Accuracy: 0.9671 	 KD loss: 17.954059 	 CLS loss: 2.640891
+[2023/03/18 21:20:39] 	 epoch : 166/300 	 Epoch loss:4.145949 	 Average loss:0.000069 	 Accuracy: 0.9670 	 KD loss: 18.086015 	 CLS loss: 2.643732
+[2023/03/18 21:20:56] 	 epoch : 167/300 	 Epoch loss:4.218741 	 Average loss:0.000070 	 Accuracy: 0.9662 	 KD loss: 18.437729 	 CLS loss: 2.655975
+[2023/03/18 21:21:12] 	 epoch : 168/300 	 Epoch loss:4.362708 	 Average loss:0.000073 	 Accuracy: 0.9660 	 KD loss: 19.074594 	 CLS loss: 2.738944
+[2023/03/18 21:21:28] 	 epoch : 169/300 	 Epoch loss:4.072669 	 Average loss:0.000068 	 Accuracy: 0.9658 	 KD loss: 17.685622 	 CLS loss: 2.677722
+[2023/03/18 21:21:45] 	 epoch : 170/300 	 Epoch loss:4.160772 	 Average loss:0.000069 	 Accuracy: 0.9677 	 KD loss: 18.205858 	 CLS loss: 2.598000
+[2023/03/18 21:21:48] 	 ### Accuracy on 10000 test images: 0.9227 Best accuracy so far: 0.9191  =>  saving model... ###
+[2023/03/18 21:22:03] 	 epoch : 171/300 	 Epoch loss:4.103814 	 Average loss:0.000068 	 Accuracy: 0.9657 	 KD loss: 17.850407 	 CLS loss: 2.668664
+[2023/03/18 21:22:21] 	 epoch : 172/300 	 Epoch loss:3.989789 	 Average loss:0.000066 	 Accuracy: 0.9671 	 KD loss: 17.324538 	 CLS loss: 2.624405
+[2023/03/18 21:22:39] 	 epoch : 173/300 	 Epoch loss:3.997994 	 Average loss:0.000067 	 Accuracy: 0.9675 	 KD loss: 17.449038 	 CLS loss: 2.540930
+[2023/03/18 21:22:57] 	 epoch : 174/300 	 Epoch loss:3.975599 	 Average loss:0.000066 	 Accuracy: 0.9675 	 KD loss: 17.296329 	 CLS loss: 2.581668
+[2023/03/18 21:23:16] 	 epoch : 175/300 	 Epoch loss:3.940636 	 Average loss:0.000066 	 Accuracy: 0.9680 	 KD loss: 17.150306 	 CLS loss: 2.552872
+[2023/03/18 21:23:34] 	 epoch : 176/300 	 Epoch loss:3.899857 	 Average loss:0.000065 	 Accuracy: 0.9692 	 KD loss: 16.998212 	 CLS loss: 2.501074
+[2023/03/18 21:23:52] 	 epoch : 177/300 	 Epoch loss:4.182772 	 Average loss:0.000070 	 Accuracy: 0.9674 	 KD loss: 18.305956 	 CLS loss: 2.607906
+[2023/03/18 21:24:10] 	 epoch : 178/300 	 Epoch loss:4.190231 	 Average loss:0.000070 	 Accuracy: 0.9656 	 KD loss: 18.240646 	 CLS loss: 2.710509
+[2023/03/18 21:24:28] 	 epoch : 179/300 	 Epoch loss:3.927657 	 Average loss:0.000065 	 Accuracy: 0.9684 	 KD loss: 17.081028 	 CLS loss: 2.557256
+[2023/03/18 21:24:44] 	 epoch : 180/300 	 Epoch loss:4.029352 	 Average loss:0.000067 	 Accuracy: 0.9679 	 KD loss: 17.599626 	 CLS loss: 2.547132
+[2023/03/18 21:24:47] 	 ### Accuracy on 10000 test images: 0.9081 Best accuracy so far: 0.9227 ###
+[2023/03/18 21:25:03] 	 epoch : 181/300 	 Epoch loss:3.825909 	 Average loss:0.000064 	 Accuracy: 0.9685 	 KD loss: 16.617531 	 CLS loss: 2.512012
+[2023/03/18 21:25:20] 	 epoch : 182/300 	 Epoch loss:3.899420 	 Average loss:0.000065 	 Accuracy: 0.9690 	 KD loss: 16.948821 	 CLS loss: 2.548278
+[2023/03/18 21:25:37] 	 epoch : 183/300 	 Epoch loss:3.925806 	 Average loss:0.000065 	 Accuracy: 0.9690 	 KD loss: 17.112034 	 CLS loss: 2.516996
+[2023/03/18 21:25:54] 	 epoch : 184/300 	 Epoch loss:3.938399 	 Average loss:0.000066 	 Accuracy: 0.9685 	 KD loss: 17.172090 	 CLS loss: 2.519908
+[2023/03/18 21:26:10] 	 epoch : 185/300 	 Epoch loss:3.984489 	 Average loss:0.000066 	 Accuracy: 0.9685 	 KD loss: 17.400359 	 CLS loss: 2.522086
+[2023/03/18 21:26:26] 	 epoch : 186/300 	 Epoch loss:3.897425 	 Average loss:0.000065 	 Accuracy: 0.9694 	 KD loss: 17.016649 	 CLS loss: 2.470475
+[2023/03/18 21:26:42] 	 epoch : 187/300 	 Epoch loss:3.882967 	 Average loss:0.000065 	 Accuracy: 0.9687 	 KD loss: 16.901705 	 CLS loss: 2.513130
+[2023/03/18 21:27:00] 	 epoch : 188/300 	 Epoch loss:4.288049 	 Average loss:0.000071 	 Accuracy: 0.9678 	 KD loss: 18.847500 	 CLS loss: 2.592746
+[2023/03/18 21:27:18] 	 epoch : 189/300 	 Epoch loss:4.143474 	 Average loss:0.000069 	 Accuracy: 0.9667 	 KD loss: 18.116716 	 CLS loss: 2.600652
+[2023/03/18 21:27:34] 	 epoch : 190/300 	 Epoch loss:4.036153 	 Average loss:0.000067 	 Accuracy: 0.9670 	 KD loss: 17.581612 	 CLS loss: 2.599155
+[2023/03/18 21:27:36] 	 ### Accuracy on 10000 test images: 0.9080 Best accuracy so far: 0.9227 ###
+[2023/03/18 21:27:52] 	 epoch : 191/300 	 Epoch loss:3.933511 	 Average loss:0.000066 	 Accuracy: 0.9687 	 KD loss: 17.159991 	 CLS loss: 2.507563
+[2023/03/18 21:28:10] 	 epoch : 192/300 	 Epoch loss:4.218281 	 Average loss:0.000070 	 Accuracy: 0.9659 	 KD loss: 18.427309 	 CLS loss: 2.664097
+[2023/03/18 21:28:28] 	 epoch : 193/300 	 Epoch loss:3.831125 	 Average loss:0.000064 	 Accuracy: 0.9691 	 KD loss: 16.690146 	 CLS loss: 2.465479
+[2023/03/18 21:28:46] 	 epoch : 194/300 	 Epoch loss:3.760615 	 Average loss:0.000063 	 Accuracy: 0.9693 	 KD loss: 16.359977 	 CLS loss: 2.443100
+[2023/03/18 21:29:03] 	 epoch : 195/300 	 Epoch loss:3.771418 	 Average loss:0.000063 	 Accuracy: 0.9706 	 KD loss: 16.419994 	 CLS loss: 2.437095
+[2023/03/18 21:29:21] 	 epoch : 196/300 	 Epoch loss:3.874156 	 Average loss:0.000065 	 Accuracy: 0.9689 	 KD loss: 16.863365 	 CLS loss: 2.507415
+[2023/03/18 21:29:38] 	 epoch : 197/300 	 Epoch loss:3.853012 	 Average loss:0.000064 	 Accuracy: 0.9680 	 KD loss: 16.702298 	 CLS loss: 2.562763
+[2023/03/18 21:29:55] 	 epoch : 198/300 	 Epoch loss:3.819553 	 Average loss:0.000064 	 Accuracy: 0.9706 	 KD loss: 16.692618 	 CLS loss: 2.405147
+[2023/03/18 21:30:12] 	 epoch : 199/300 	 Epoch loss:4.016274 	 Average loss:0.000067 	 Accuracy: 0.9691 	 KD loss: 17.578729 	 CLS loss: 2.502640
+[2023/03/18 21:30:29] 	 epoch : 200/300 	 Epoch loss:3.877870 	 Average loss:0.000065 	 Accuracy: 0.9694 	 KD loss: 16.941369 	 CLS loss: 2.447983
+[2023/03/18 21:30:31] 	 ### Accuracy on 10000 test images: 0.9204 Best accuracy so far: 0.9227 ###
+[2023/03/18 21:30:48] 	 epoch : 201/300 	 Epoch loss:3.936506 	 Average loss:0.000066 	 Accuracy: 0.9697 	 KD loss: 17.221589 	 CLS loss: 2.460943
+[2023/03/18 21:31:06] 	 epoch : 202/300 	 Epoch loss:3.810945 	 Average loss:0.000064 	 Accuracy: 0.9697 	 KD loss: 16.614075 	 CLS loss: 2.440647
+[2023/03/18 21:31:25] 	 epoch : 203/300 	 Epoch loss:3.818039 	 Average loss:0.000064 	 Accuracy: 0.9696 	 KD loss: 16.646406 	 CLS loss: 2.443791
+[2023/03/18 21:31:43] 	 epoch : 204/300 	 Epoch loss:3.714299 	 Average loss:0.000062 	 Accuracy: 0.9704 	 KD loss: 16.195217 	 CLS loss: 2.376280
+[2023/03/18 21:32:01] 	 epoch : 205/300 	 Epoch loss:3.637319 	 Average loss:0.000061 	 Accuracy: 0.9718 	 KD loss: 15.855819 	 CLS loss: 2.330775
+[2023/03/18 21:32:19] 	 epoch : 206/300 	 Epoch loss:3.862012 	 Average loss:0.000064 	 Accuracy: 0.9694 	 KD loss: 16.850158 	 CLS loss: 2.459901
+[2023/03/18 21:32:38] 	 epoch : 207/300 	 Epoch loss:3.595499 	 Average loss:0.000060 	 Accuracy: 0.9724 	 KD loss: 15.663638 	 CLS loss: 2.313858
+[2023/03/18 21:32:56] 	 epoch : 208/300 	 Epoch loss:3.684804 	 Average loss:0.000061 	 Accuracy: 0.9706 	 KD loss: 16.039143 	 CLS loss: 2.384879
+[2023/03/18 21:33:13] 	 epoch : 209/300 	 Epoch loss:3.715863 	 Average loss:0.000062 	 Accuracy: 0.9706 	 KD loss: 16.193338 	 CLS loss: 2.385978
+[2023/03/18 21:33:30] 	 epoch : 210/300 	 Epoch loss:3.898541 	 Average loss:0.000065 	 Accuracy: 0.9701 	 KD loss: 17.038159 	 CLS loss: 2.454544
+[2023/03/18 21:33:33] 	 ### Accuracy on 10000 test images: 0.9160 Best accuracy so far: 0.9227 ###
+[2023/03/18 21:33:51] 	 epoch : 211/300 	 Epoch loss:3.820426 	 Average loss:0.000064 	 Accuracy: 0.9712 	 KD loss: 16.718792 	 CLS loss: 2.383337
+[2023/03/18 21:34:10] 	 epoch : 212/300 	 Epoch loss:4.014900 	 Average loss:0.000067 	 Accuracy: 0.9704 	 KD loss: 17.683015 	 CLS loss: 2.391485
+[2023/03/18 21:34:27] 	 epoch : 213/300 	 Epoch loss:3.936807 	 Average loss:0.000066 	 Accuracy: 0.9691 	 KD loss: 17.209233 	 CLS loss: 2.474801
+[2023/03/18 21:34:43] 	 epoch : 214/300 	 Epoch loss:3.701665 	 Average loss:0.000062 	 Accuracy: 0.9708 	 KD loss: 16.147325 	 CLS loss: 2.361001
+[2023/03/18 21:35:00] 	 epoch : 215/300 	 Epoch loss:3.813858 	 Average loss:0.000064 	 Accuracy: 0.9698 	 KD loss: 16.654935 	 CLS loss: 2.414355
+[2023/03/18 21:35:17] 	 epoch : 216/300 	 Epoch loss:3.894632 	 Average loss:0.000065 	 Accuracy: 0.9692 	 KD loss: 17.009058 	 CLS loss: 2.464103
+[2023/03/18 21:35:34] 	 epoch : 217/300 	 Epoch loss:3.768549 	 Average loss:0.000063 	 Accuracy: 0.9705 	 KD loss: 16.441089 	 CLS loss: 2.401653
+[2023/03/18 21:35:52] 	 epoch : 218/300 	 Epoch loss:3.635997 	 Average loss:0.000061 	 Accuracy: 0.9718 	 KD loss: 15.862036 	 CLS loss: 2.317949
+[2023/03/18 21:36:09] 	 epoch : 219/300 	 Epoch loss:3.651171 	 Average loss:0.000061 	 Accuracy: 0.9718 	 KD loss: 15.960833 	 CLS loss: 2.295019
+[2023/03/18 21:36:26] 	 epoch : 220/300 	 Epoch loss:3.739807 	 Average loss:0.000062 	 Accuracy: 0.9699 	 KD loss: 16.271268 	 CLS loss: 2.427768
+[2023/03/18 21:36:28] 	 ### Accuracy on 10000 test images: 0.9176 Best accuracy so far: 0.9227 ###
+[2023/03/18 21:36:47] 	 epoch : 221/300 	 Epoch loss:3.759915 	 Average loss:0.000063 	 Accuracy: 0.9695 	 KD loss: 16.342929 	 CLS loss: 2.456644
+[2023/03/18 21:37:05] 	 epoch : 222/300 	 Epoch loss:3.712262 	 Average loss:0.000062 	 Accuracy: 0.9714 	 KD loss: 16.219359 	 CLS loss: 2.341952
+[2023/03/18 21:37:23] 	 epoch : 223/300 	 Epoch loss:3.649703 	 Average loss:0.000061 	 Accuracy: 0.9706 	 KD loss: 15.880878 	 CLS loss: 2.367639
+[2023/03/18 21:37:40] 	 epoch : 224/300 	 Epoch loss:3.394814 	 Average loss:0.000057 	 Accuracy: 0.9751 	 KD loss: 14.858072 	 CLS loss: 2.116000
+[2023/03/18 21:37:57] 	 epoch : 225/300 	 Epoch loss:3.027092 	 Average loss:0.000050 	 Accuracy: 0.9783 	 KD loss: 13.237626 	 CLS loss: 1.897833
+[2023/03/18 21:38:14] 	 epoch : 226/300 	 Epoch loss:3.012552 	 Average loss:0.000050 	 Accuracy: 0.9788 	 KD loss: 13.182296 	 CLS loss: 1.880465
+[2023/03/18 21:38:31] 	 epoch : 227/300 	 Epoch loss:3.043203 	 Average loss:0.000051 	 Accuracy: 0.9785 	 KD loss: 13.345519 	 CLS loss: 1.870496
+[2023/03/18 21:38:48] 	 epoch : 228/300 	 Epoch loss:2.957125 	 Average loss:0.000049 	 Accuracy: 0.9788 	 KD loss: 12.913720 	 CLS loss: 1.871904
+[2023/03/18 21:39:04] 	 epoch : 229/300 	 Epoch loss:2.933224 	 Average loss:0.000049 	 Accuracy: 0.9799 	 KD loss: 12.836848 	 CLS loss: 1.829271
+[2023/03/18 21:39:20] 	 epoch : 230/300 	 Epoch loss:3.114900 	 Average loss:0.000052 	 Accuracy: 0.9788 	 KD loss: 13.685030 	 CLS loss: 1.889471
+[2023/03/18 21:39:23] 	 ### Accuracy on 10000 test images: 0.9157 Best accuracy so far: 0.9227 ###
+[2023/03/18 21:39:40] 	 epoch : 231/300 	 Epoch loss:3.058364 	 Average loss:0.000051 	 Accuracy: 0.9779 	 KD loss: 13.390999 	 CLS loss: 1.900819
+[2023/03/18 21:39:58] 	 epoch : 232/300 	 Epoch loss:2.914373 	 Average loss:0.000049 	 Accuracy: 0.9799 	 KD loss: 12.761241 	 CLS loss: 1.810625
+[2023/03/18 21:40:16] 	 epoch : 233/300 	 Epoch loss:2.877729 	 Average loss:0.000048 	 Accuracy: 0.9803 	 KD loss: 12.603103 	 CLS loss: 1.785541
+[2023/03/18 21:40:33] 	 epoch : 234/300 	 Epoch loss:2.994132 	 Average loss:0.000050 	 Accuracy: 0.9798 	 KD loss: 13.143449 	 CLS loss: 1.827212
+[2023/03/18 21:40:51] 	 epoch : 235/300 	 Epoch loss:2.867299 	 Average loss:0.000048 	 Accuracy: 0.9802 	 KD loss: 12.540763 	 CLS loss: 1.795730
+[2023/03/18 21:41:08] 	 epoch : 236/300 	 Epoch loss:2.920658 	 Average loss:0.000049 	 Accuracy: 0.9798 	 KD loss: 12.773714 	 CLS loss: 1.829577
+[2023/03/18 21:41:26] 	 epoch : 237/300 	 Epoch loss:2.950973 	 Average loss:0.000049 	 Accuracy: 0.9792 	 KD loss: 12.894667 	 CLS loss: 1.860197
+[2023/03/18 21:41:43] 	 epoch : 238/300 	 Epoch loss:3.074281 	 Average loss:0.000051 	 Accuracy: 0.9789 	 KD loss: 13.530672 	 CLS loss: 1.840732
+[2023/03/18 21:42:00] 	 epoch : 239/300 	 Epoch loss:2.907229 	 Average loss:0.000048 	 Accuracy: 0.9798 	 KD loss: 12.730395 	 CLS loss: 1.805749
+[2023/03/18 21:42:16] 	 epoch : 240/300 	 Epoch loss:2.909053 	 Average loss:0.000048 	 Accuracy: 0.9794 	 KD loss: 12.720011 	 CLS loss: 1.825252
+[2023/03/18 21:42:19] 	 ### Accuracy on 10000 test images: 0.9239 Best accuracy so far: 0.9227  =>  saving model... ###
+[2023/03/18 21:42:37] 	 epoch : 241/300 	 Epoch loss:3.145326 	 Average loss:0.000052 	 Accuracy: 0.9788 	 KD loss: 13.842869 	 CLS loss: 1.883761
+[2023/03/18 21:42:54] 	 epoch : 242/300 	 Epoch loss:2.966251 	 Average loss:0.000049 	 Accuracy: 0.9790 	 KD loss: 12.993397 	 CLS loss: 1.837857
+[2023/03/18 21:43:12] 	 epoch : 243/300 	 Epoch loss:2.972491 	 Average loss:0.000050 	 Accuracy: 0.9798 	 KD loss: 13.038381 	 CLS loss: 1.824075
+[2023/03/18 21:43:30] 	 epoch : 244/300 	 Epoch loss:2.994893 	 Average loss:0.000050 	 Accuracy: 0.9796 	 KD loss: 13.163508 	 CLS loss: 1.810957
+[2023/03/18 21:43:47] 	 epoch : 245/300 	 Epoch loss:2.942265 	 Average loss:0.000049 	 Accuracy: 0.9799 	 KD loss: 12.898547 	 CLS loss: 1.812777
+[2023/03/18 21:44:05] 	 epoch : 246/300 	 Epoch loss:3.216008 	 Average loss:0.000054 	 Accuracy: 0.9791 	 KD loss: 14.202373 	 CLS loss: 1.877666
+[2023/03/18 21:44:22] 	 epoch : 247/300 	 Epoch loss:3.014121 	 Average loss:0.000050 	 Accuracy: 0.9788 	 KD loss: 13.212567 	 CLS loss: 1.858039
+[2023/03/18 21:44:40] 	 epoch : 248/300 	 Epoch loss:2.833115 	 Average loss:0.000047 	 Accuracy: 0.9808 	 KD loss: 12.424146 	 CLS loss: 1.741427
+[2023/03/18 21:44:56] 	 epoch : 249/300 	 Epoch loss:2.863891 	 Average loss:0.000048 	 Accuracy: 0.9807 	 KD loss: 12.543218 	 CLS loss: 1.776237
+[2023/03/18 21:45:11] 	 epoch : 250/300 	 Epoch loss:2.874176 	 Average loss:0.000048 	 Accuracy: 0.9806 	 KD loss: 12.601453 	 CLS loss: 1.769428
+[2023/03/18 21:45:13] 	 ### Accuracy on 10000 test images: 0.9254 Best accuracy so far: 0.9239  =>  saving model... ###
+[2023/03/18 21:45:30] 	 epoch : 251/300 	 Epoch loss:3.076335 	 Average loss:0.000051 	 Accuracy: 0.9782 	 KD loss: 13.506147 	 CLS loss: 1.875527
+[2023/03/18 21:45:47] 	 epoch : 252/300 	 Epoch loss:2.955269 	 Average loss:0.000049 	 Accuracy: 0.9794 	 KD loss: 12.955978 	 CLS loss: 1.820364
+[2023/03/18 21:46:04] 	 epoch : 253/300 	 Epoch loss:2.898895 	 Average loss:0.000048 	 Accuracy: 0.9801 	 KD loss: 12.703495 	 CLS loss: 1.790983
+[2023/03/18 21:46:21] 	 epoch : 254/300 	 Epoch loss:2.966000 	 Average loss:0.000049 	 Accuracy: 0.9791 	 KD loss: 12.994400 	 CLS loss: 1.835599
+[2023/03/18 21:46:39] 	 epoch : 255/300 	 Epoch loss:2.886625 	 Average loss:0.000048 	 Accuracy: 0.9801 	 KD loss: 12.606261 	 CLS loss: 1.826866
+[2023/03/18 21:46:58] 	 epoch : 256/300 	 Epoch loss:2.937143 	 Average loss:0.000049 	 Accuracy: 0.9799 	 KD loss: 12.865978 	 CLS loss: 1.819737
+[2023/03/18 21:47:16] 	 epoch : 257/300 	 Epoch loss:2.896343 	 Average loss:0.000048 	 Accuracy: 0.9792 	 KD loss: 12.665780 	 CLS loss: 1.815933
+[2023/03/18 21:47:34] 	 epoch : 258/300 	 Epoch loss:2.930126 	 Average loss:0.000049 	 Accuracy: 0.9793 	 KD loss: 12.848557 	 CLS loss: 1.802072
+[2023/03/18 21:47:51] 	 epoch : 259/300 	 Epoch loss:2.941884 	 Average loss:0.000049 	 Accuracy: 0.9800 	 KD loss: 12.914285 	 CLS loss: 1.795136
+[2023/03/18 21:48:08] 	 epoch : 260/300 	 Epoch loss:2.842075 	 Average loss:0.000047 	 Accuracy: 0.9812 	 KD loss: 12.497114 	 CLS loss: 1.713261
+[2023/03/18 21:48:10] 	 ### Accuracy on 10000 test images: 0.9244 Best accuracy so far: 0.9254 ###
+[2023/03/18 21:48:29] 	 epoch : 261/300 	 Epoch loss:2.817215 	 Average loss:0.000047 	 Accuracy: 0.9811 	 KD loss: 12.355357 	 CLS loss: 1.730719
+[2023/03/18 21:48:47] 	 epoch : 262/300 	 Epoch loss:2.955960 	 Average loss:0.000049 	 Accuracy: 0.9791 	 KD loss: 12.947865 	 CLS loss: 1.831935
+[2023/03/18 21:49:06] 	 epoch : 263/300 	 Epoch loss:2.931910 	 Average loss:0.000049 	 Accuracy: 0.9795 	 KD loss: 12.854455 	 CLS loss: 1.805096
+[2023/03/18 21:49:24] 	 epoch : 264/300 	 Epoch loss:2.963312 	 Average loss:0.000049 	 Accuracy: 0.9795 	 KD loss: 12.980270 	 CLS loss: 1.836292
+[2023/03/18 21:49:43] 	 epoch : 265/300 	 Epoch loss:2.873159 	 Average loss:0.000048 	 Accuracy: 0.9802 	 KD loss: 12.619251 	 CLS loss: 1.746546
+[2023/03/18 21:50:01] 	 epoch : 266/300 	 Epoch loss:3.075951 	 Average loss:0.000051 	 Accuracy: 0.9800 	 KD loss: 13.594928 	 CLS loss: 1.784825
+[2023/03/18 21:50:19] 	 epoch : 267/300 	 Epoch loss:2.935721 	 Average loss:0.000049 	 Accuracy: 0.9798 	 KD loss: 12.874270 	 CLS loss: 1.804333
+[2023/03/18 21:50:37] 	 epoch : 268/300 	 Epoch loss:2.816525 	 Average loss:0.000047 	 Accuracy: 0.9814 	 KD loss: 12.353138 	 CLS loss: 1.729487
+[2023/03/18 21:50:55] 	 epoch : 269/300 	 Epoch loss:2.779270 	 Average loss:0.000046 	 Accuracy: 0.9819 	 KD loss: 12.213634 	 CLS loss: 1.682716
+[2023/03/18 21:51:07] 	 epoch : 270/300 	 Epoch loss:2.918263 	 Average loss:0.000049 	 Accuracy: 0.9799 	 KD loss: 12.809853 	 CLS loss: 1.781459
+[2023/03/18 21:51:10] 	 ### Accuracy on 10000 test images: 0.9241 Best accuracy so far: 0.9254 ###
+[2023/03/18 21:51:26] 	 epoch : 271/300 	 Epoch loss:2.716722 	 Average loss:0.000045 	 Accuracy: 0.9813 	 KD loss: 11.862976 	 CLS loss: 1.720634
+[2023/03/18 21:51:42] 	 epoch : 272/300 	 Epoch loss:3.002660 	 Average loss:0.000050 	 Accuracy: 0.9800 	 KD loss: 13.242978 	 CLS loss: 1.770324
+[2023/03/18 21:51:59] 	 epoch : 273/300 	 Epoch loss:2.910431 	 Average loss:0.000049 	 Accuracy: 0.9797 	 KD loss: 12.757315 	 CLS loss: 1.794838
+[2023/03/18 21:52:15] 	 epoch : 274/300 	 Epoch loss:2.782999 	 Average loss:0.000046 	 Accuracy: 0.9810 	 KD loss: 12.188912 	 CLS loss: 1.726082
+[2023/03/18 21:52:34] 	 epoch : 275/300 	 Epoch loss:2.908286 	 Average loss:0.000048 	 Accuracy: 0.9794 	 KD loss: 12.743139 	 CLS loss: 1.798292
+[2023/03/18 21:52:52] 	 epoch : 276/300 	 Epoch loss:2.807960 	 Average loss:0.000047 	 Accuracy: 0.9808 	 KD loss: 12.298823 	 CLS loss: 1.740979
+[2023/03/18 21:53:10] 	 epoch : 277/300 	 Epoch loss:2.889653 	 Average loss:0.000048 	 Accuracy: 0.9804 	 KD loss: 12.700647 	 CLS loss: 1.747620
+[2023/03/18 21:53:28] 	 epoch : 278/300 	 Epoch loss:2.791930 	 Average loss:0.000047 	 Accuracy: 0.9805 	 KD loss: 12.236144 	 CLS loss: 1.723505
+[2023/03/18 21:53:46] 	 epoch : 279/300 	 Epoch loss:2.966410 	 Average loss:0.000049 	 Accuracy: 0.9808 	 KD loss: 13.092104 	 CLS loss: 1.739945
+[2023/03/18 21:54:03] 	 epoch : 280/300 	 Epoch loss:2.969306 	 Average loss:0.000049 	 Accuracy: 0.9783 	 KD loss: 13.007152 	 CLS loss: 1.839377
+[2023/03/18 21:54:06] 	 ### Accuracy on 10000 test images: 0.9187 Best accuracy so far: 0.9254 ###
+[2023/03/18 21:54:23] 	 epoch : 281/300 	 Epoch loss:2.913595 	 Average loss:0.000049 	 Accuracy: 0.9804 	 KD loss: 12.788209 	 CLS loss: 1.779764
+[2023/03/18 21:54:41] 	 epoch : 282/300 	 Epoch loss:2.852978 	 Average loss:0.000048 	 Accuracy: 0.9805 	 KD loss: 12.519192 	 CLS loss: 1.745696
+[2023/03/18 21:54:59] 	 epoch : 283/300 	 Epoch loss:2.771407 	 Average loss:0.000046 	 Accuracy: 0.9808 	 KD loss: 12.127935 	 CLS loss: 1.729100
+[2023/03/18 21:55:17] 	 epoch : 284/300 	 Epoch loss:2.889947 	 Average loss:0.000048 	 Accuracy: 0.9820 	 KD loss: 12.742101 	 CLS loss: 1.707634
+[2023/03/18 21:55:34] 	 epoch : 285/300 	 Epoch loss:3.096434 	 Average loss:0.000052 	 Accuracy: 0.9795 	 KD loss: 13.663724 	 CLS loss: 1.818445
+[2023/03/18 21:55:52] 	 epoch : 286/300 	 Epoch loss:3.010943 	 Average loss:0.000050 	 Accuracy: 0.9790 	 KD loss: 13.239597 	 CLS loss: 1.815118
+[2023/03/18 21:56:10] 	 epoch : 287/300 	 Epoch loss:2.928035 	 Average loss:0.000049 	 Accuracy: 0.9804 	 KD loss: 12.873780 	 CLS loss: 1.766392
+[2023/03/18 21:56:27] 	 epoch : 288/300 	 Epoch loss:2.575205 	 Average loss:0.000043 	 Accuracy: 0.9844 	 KD loss: 11.300918 	 CLS loss: 1.575108
+[2023/03/18 21:56:43] 	 epoch : 289/300 	 Epoch loss:2.518141 	 Average loss:0.000042 	 Accuracy: 0.9853 	 KD loss: 11.079002 	 CLS loss: 1.511701
+[2023/03/18 21:57:00] 	 epoch : 290/300 	 Epoch loss:2.470085 	 Average loss:0.000041 	 Accuracy: 0.9848 	 KD loss: 10.820216 	 CLS loss: 1.530209
+[2023/03/18 21:57:03] 	 ### Accuracy on 10000 test images: 0.9227 Best accuracy so far: 0.9254 ###
+[2023/03/18 21:57:21] 	 epoch : 291/300 	 Epoch loss:2.492635 	 Average loss:0.000042 	 Accuracy: 0.9848 	 KD loss: 10.962075 	 CLS loss: 1.501102
+[2023/03/18 21:57:39] 	 epoch : 292/300 	 Epoch loss:2.390970 	 Average loss:0.000040 	 Accuracy: 0.9861 	 KD loss: 10.485592 	 CLS loss: 1.469256
+[2023/03/18 21:57:56] 	 epoch : 293/300 	 Epoch loss:2.394569 	 Average loss:0.000040 	 Accuracy: 0.9858 	 KD loss: 10.534480 	 CLS loss: 1.438365
+[2023/03/18 21:58:14] 	 epoch : 294/300 	 Epoch loss:2.475412 	 Average loss:0.000041 	 Accuracy: 0.9853 	 KD loss: 10.884912 	 CLS loss: 1.492149
+[2023/03/18 21:58:31] 	 epoch : 295/300 	 Epoch loss:2.465997 	 Average loss:0.000041 	 Accuracy: 0.9853 	 KD loss: 10.836157 	 CLS loss: 1.493826
+[2023/03/18 21:58:48] 	 epoch : 296/300 	 Epoch loss:2.482663 	 Average loss:0.000041 	 Accuracy: 0.9855 	 KD loss: 10.924411 	 CLS loss: 1.488904
+[2023/03/18 21:59:05] 	 epoch : 297/300 	 Epoch loss:2.401504 	 Average loss:0.000040 	 Accuracy: 0.9862 	 KD loss: 10.566985 	 CLS loss: 1.440532
+[2023/03/18 21:59:19] 	 epoch : 298/300 	 Epoch loss:2.350026 	 Average loss:0.000039 	 Accuracy: 0.9866 	 KD loss: 10.317415 	 CLS loss: 1.432716
+[2023/03/18 21:59:31] 	 epoch : 299/300 	 Epoch loss:2.436476 	 Average loss:0.000041 	 Accuracy: 0.9860 	 KD loss: 10.728204 	 CLS loss: 1.454173
+[2023/03/18 21:59:39] 	 epoch : 300/300 	 Epoch loss:2.413034 	 Average loss:0.000040 	 Accuracy: 0.9860 	 KD loss: 10.589198 	 CLS loss: 1.475974
+[2023/03/18 21:59:42] 	 ### Accuracy on 10000 test images: 0.9244 Best accuracy so far: 0.9254 ###
+
+=========================== Pruning ===========================
+[2023/03/18 21:59:52] 	 Original Model Size: 175258, Original Accuracy on Testing Img: 0.9254
+[2023/03/18 21:59:52] 	 Pruned Model Size:  85956, Pruned Accuracy on Testing Img: 0.1195
+
+=========================== Finetuning ===========================
+[2023/03/18 22:00:08] 	 epoch : 001/300 	 Epoch loss:233.802968 	 Average loss:0.003897 	 Accuracy: 0.8184 	 Testing Accuracy: 0.8412
+[2023/03/18 22:00:08] 	 ### saving best model ###
+[2023/03/18 22:00:23] 	 epoch : 002/300 	 Epoch loss:148.966668 	 Average loss:0.002483 	 Accuracy: 0.8841 	 Testing Accuracy: 0.8459
+[2023/03/18 22:00:23] 	 ### saving best model ###
+[2023/03/18 22:00:38] 	 epoch : 003/300 	 Epoch loss:128.194336 	 Average loss:0.002137 	 Accuracy: 0.9002 	 Testing Accuracy: 0.8895
+[2023/03/18 22:00:38] 	 ### saving best model ###
+[2023/03/18 22:00:53] 	 epoch : 004/300 	 Epoch loss:116.125188 	 Average loss:0.001935 	 Accuracy: 0.9099 	 Testing Accuracy: 0.8921
+[2023/03/18 22:00:53] 	 ### saving best model ###
+[2023/03/18 22:01:09] 	 epoch : 005/300 	 Epoch loss:105.499981 	 Average loss:0.001758 	 Accuracy: 0.9182 	 Testing Accuracy: 0.9075
+[2023/03/18 22:01:09] 	 ### saving best model ###
+[2023/03/18 22:01:24] 	 epoch : 006/300 	 Epoch loss:101.637455 	 Average loss:0.001694 	 Accuracy: 0.9216 	 Testing Accuracy: 0.9167
+[2023/03/18 22:01:24] 	 ### saving best model ###
+[2023/03/18 22:01:39] 	 epoch : 007/300 	 Epoch loss:97.303614 	 Average loss:0.001622 	 Accuracy: 0.9258 	 Testing Accuracy: 0.9146
+[2023/03/18 22:01:54] 	 epoch : 008/300 	 Epoch loss:92.080650 	 Average loss:0.001535 	 Accuracy: 0.9291 	 Testing Accuracy: 0.9091
+[2023/03/18 22:02:08] 	 epoch : 009/300 	 Epoch loss:90.088408 	 Average loss:0.001501 	 Accuracy: 0.9304 	 Testing Accuracy: 0.9093
+[2023/03/18 22:02:23] 	 epoch : 010/300 	 Epoch loss:88.129303 	 Average loss:0.001469 	 Accuracy: 0.9319 	 Testing Accuracy: 0.9121
+[2023/03/18 22:02:38] 	 epoch : 011/300 	 Epoch loss:84.452422 	 Average loss:0.001408 	 Accuracy: 0.9349 	 Testing Accuracy: 0.8983
+[2023/03/18 22:02:54] 	 epoch : 012/300 	 Epoch loss:82.027382 	 Average loss:0.001367 	 Accuracy: 0.9377 	 Testing Accuracy: 0.9123
+[2023/03/18 22:03:09] 	 epoch : 013/300 	 Epoch loss:79.726166 	 Average loss:0.001329 	 Accuracy: 0.9386 	 Testing Accuracy: 0.9146
+[2023/03/18 22:03:25] 	 epoch : 014/300 	 Epoch loss:77.992453 	 Average loss:0.001300 	 Accuracy: 0.9404 	 Testing Accuracy: 0.9134
+[2023/03/18 22:03:41] 	 epoch : 015/300 	 Epoch loss:76.181221 	 Average loss:0.001270 	 Accuracy: 0.9419 	 Testing Accuracy: 0.9175
+[2023/03/18 22:03:41] 	 ### saving best model ###
+[2023/03/18 22:03:56] 	 epoch : 016/300 	 Epoch loss:74.545815 	 Average loss:0.001242 	 Accuracy: 0.9416 	 Testing Accuracy: 0.9138
+[2023/03/18 22:04:12] 	 epoch : 017/300 	 Epoch loss:74.405189 	 Average loss:0.001240 	 Accuracy: 0.9423 	 Testing Accuracy: 0.9141
+[2023/03/18 22:04:27] 	 epoch : 018/300 	 Epoch loss:72.048579 	 Average loss:0.001201 	 Accuracy: 0.9438 	 Testing Accuracy: 0.9142
+[2023/03/18 22:04:43] 	 epoch : 019/300 	 Epoch loss:70.899052 	 Average loss:0.001182 	 Accuracy: 0.9461 	 Testing Accuracy: 0.8911
+[2023/03/18 22:04:58] 	 epoch : 020/300 	 Epoch loss:70.041778 	 Average loss:0.001167 	 Accuracy: 0.9461 	 Testing Accuracy: 0.9187
+[2023/03/18 22:04:58] 	 ### saving best model ###
+[2023/03/18 22:05:14] 	 epoch : 021/300 	 Epoch loss:67.718253 	 Average loss:0.001129 	 Accuracy: 0.9473 	 Testing Accuracy: 0.9189
+[2023/03/18 22:05:14] 	 ### saving best model ###
+[2023/03/18 22:05:29] 	 epoch : 022/300 	 Epoch loss:67.023359 	 Average loss:0.001117 	 Accuracy: 0.9484 	 Testing Accuracy: 0.9011
+[2023/03/18 22:05:45] 	 epoch : 023/300 	 Epoch loss:65.118554 	 Average loss:0.001085 	 Accuracy: 0.9502 	 Testing Accuracy: 0.8904
+[2023/03/18 22:06:01] 	 epoch : 024/300 	 Epoch loss:64.578300 	 Average loss:0.001076 	 Accuracy: 0.9506 	 Testing Accuracy: 0.9146
+[2023/03/18 22:06:17] 	 epoch : 025/300 	 Epoch loss:63.390236 	 Average loss:0.001057 	 Accuracy: 0.9517 	 Testing Accuracy: 0.9279
+[2023/03/18 22:06:17] 	 ### saving best model ###
+[2023/03/18 22:06:32] 	 epoch : 026/300 	 Epoch loss:62.031952 	 Average loss:0.001034 	 Accuracy: 0.9512 	 Testing Accuracy: 0.9197
+[2023/03/18 22:06:48] 	 epoch : 027/300 	 Epoch loss:61.920873 	 Average loss:0.001032 	 Accuracy: 0.9527 	 Testing Accuracy: 0.9219
+[2023/03/18 22:07:03] 	 epoch : 028/300 	 Epoch loss:60.723986 	 Average loss:0.001012 	 Accuracy: 0.9533 	 Testing Accuracy: 0.9185
+[2023/03/18 22:07:19] 	 epoch : 029/300 	 Epoch loss:59.249032 	 Average loss:0.000987 	 Accuracy: 0.9553 	 Testing Accuracy: 0.9247
+[2023/03/18 22:07:34] 	 epoch : 030/300 	 Epoch loss:59.307572 	 Average loss:0.000988 	 Accuracy: 0.9552 	 Testing Accuracy: 0.9254
+[2023/03/18 22:07:49] 	 epoch : 031/300 	 Epoch loss:58.775484 	 Average loss:0.000980 	 Accuracy: 0.9552 	 Testing Accuracy: 0.9224
+[2023/03/18 22:08:03] 	 epoch : 032/300 	 Epoch loss:56.416476 	 Average loss:0.000940 	 Accuracy: 0.9569 	 Testing Accuracy: 0.9247
+[2023/03/18 22:08:18] 	 epoch : 033/300 	 Epoch loss:56.599518 	 Average loss:0.000943 	 Accuracy: 0.9570 	 Testing Accuracy: 0.9060
+[2023/03/18 22:08:33] 	 epoch : 034/300 	 Epoch loss:56.574884 	 Average loss:0.000943 	 Accuracy: 0.9567 	 Testing Accuracy: 0.9246
+[2023/03/18 22:08:47] 	 epoch : 035/300 	 Epoch loss:56.162002 	 Average loss:0.000936 	 Accuracy: 0.9576 	 Testing Accuracy: 0.9099
+[2023/03/18 22:09:02] 	 epoch : 036/300 	 Epoch loss:55.399254 	 Average loss:0.000923 	 Accuracy: 0.9568 	 Testing Accuracy: 0.9145
+[2023/03/18 22:09:16] 	 epoch : 037/300 	 Epoch loss:55.062400 	 Average loss:0.000918 	 Accuracy: 0.9583 	 Testing Accuracy: 0.9100
+[2023/03/18 22:09:31] 	 epoch : 038/300 	 Epoch loss:52.866740 	 Average loss:0.000881 	 Accuracy: 0.9598 	 Testing Accuracy: 0.9004
+[2023/03/18 22:09:45] 	 epoch : 039/300 	 Epoch loss:52.750165 	 Average loss:0.000879 	 Accuracy: 0.9606 	 Testing Accuracy: 0.9210
+[2023/03/18 22:10:00] 	 epoch : 040/300 	 Epoch loss:51.627211 	 Average loss:0.000860 	 Accuracy: 0.9608 	 Testing Accuracy: 0.9217
+[2023/03/18 22:10:15] 	 epoch : 041/300 	 Epoch loss:50.802744 	 Average loss:0.000847 	 Accuracy: 0.9617 	 Testing Accuracy: 0.9190
+[2023/03/18 22:10:29] 	 epoch : 042/300 	 Epoch loss:51.728714 	 Average loss:0.000862 	 Accuracy: 0.9598 	 Testing Accuracy: 0.9151
+[2023/03/18 22:10:44] 	 epoch : 043/300 	 Epoch loss:49.786259 	 Average loss:0.000830 	 Accuracy: 0.9625 	 Testing Accuracy: 0.9118
+[2023/03/18 22:10:59] 	 epoch : 044/300 	 Epoch loss:50.117680 	 Average loss:0.000835 	 Accuracy: 0.9631 	 Testing Accuracy: 0.9220
+[2023/03/18 22:11:14] 	 epoch : 045/300 	 Epoch loss:49.682212 	 Average loss:0.000828 	 Accuracy: 0.9621 	 Testing Accuracy: 0.9221
+[2023/03/18 22:11:29] 	 epoch : 046/300 	 Epoch loss:48.559934 	 Average loss:0.000809 	 Accuracy: 0.9630 	 Testing Accuracy: 0.9191
+[2023/03/18 22:11:43] 	 epoch : 047/300 	 Epoch loss:47.874110 	 Average loss:0.000798 	 Accuracy: 0.9638 	 Testing Accuracy: 0.9173
+[2023/03/18 22:11:58] 	 epoch : 048/300 	 Epoch loss:48.790026 	 Average loss:0.000813 	 Accuracy: 0.9633 	 Testing Accuracy: 0.9168
+[2023/03/18 22:12:13] 	 epoch : 049/300 	 Epoch loss:47.020381 	 Average loss:0.000784 	 Accuracy: 0.9642 	 Testing Accuracy: 0.9177
+[2023/03/18 22:12:29] 	 epoch : 050/300 	 Epoch loss:46.859709 	 Average loss:0.000781 	 Accuracy: 0.9644 	 Testing Accuracy: 0.9167
+[2023/03/18 22:12:44] 	 epoch : 051/300 	 Epoch loss:46.971677 	 Average loss:0.000783 	 Accuracy: 0.9640 	 Testing Accuracy: 0.9203
+[2023/03/18 22:12:59] 	 epoch : 052/300 	 Epoch loss:46.895775 	 Average loss:0.000782 	 Accuracy: 0.9646 	 Testing Accuracy: 0.9248
+[2023/03/18 22:13:14] 	 epoch : 053/300 	 Epoch loss:44.805619 	 Average loss:0.000747 	 Accuracy: 0.9662 	 Testing Accuracy: 0.9186
+[2023/03/18 22:13:30] 	 epoch : 054/300 	 Epoch loss:44.441116 	 Average loss:0.000741 	 Accuracy: 0.9659 	 Testing Accuracy: 0.9184
+[2023/03/18 22:13:45] 	 epoch : 055/300 	 Epoch loss:46.503947 	 Average loss:0.000775 	 Accuracy: 0.9642 	 Testing Accuracy: 0.9251
+[2023/03/18 22:14:00] 	 epoch : 056/300 	 Epoch loss:45.262571 	 Average loss:0.000754 	 Accuracy: 0.9652 	 Testing Accuracy: 0.9266
+[2023/03/18 22:14:15] 	 epoch : 057/300 	 Epoch loss:43.644513 	 Average loss:0.000727 	 Accuracy: 0.9674 	 Testing Accuracy: 0.9228
+[2023/03/18 22:14:30] 	 epoch : 058/300 	 Epoch loss:43.689460 	 Average loss:0.000728 	 Accuracy: 0.9668 	 Testing Accuracy: 0.9206
+[2023/03/18 22:14:45] 	 epoch : 059/300 	 Epoch loss:41.615759 	 Average loss:0.000694 	 Accuracy: 0.9687 	 Testing Accuracy: 0.9102
+[2023/03/18 22:15:00] 	 epoch : 060/300 	 Epoch loss:44.687511 	 Average loss:0.000745 	 Accuracy: 0.9663 	 Testing Accuracy: 0.9106
+[2023/03/18 22:15:15] 	 epoch : 061/300 	 Epoch loss:27.518495 	 Average loss:0.000459 	 Accuracy: 0.9812 	 Testing Accuracy: 0.9297
+[2023/03/18 22:15:15] 	 ### saving best model ###
+[2023/03/18 22:15:30] 	 epoch : 062/300 	 Epoch loss:21.292489 	 Average loss:0.000355 	 Accuracy: 0.9874 	 Testing Accuracy: 0.9320
+[2023/03/18 22:15:30] 	 ### saving best model ###
+[2023/03/18 22:15:44] 	 epoch : 063/300 	 Epoch loss:18.400620 	 Average loss:0.000307 	 Accuracy: 0.9910 	 Testing Accuracy: 0.9310
+[2023/03/18 22:15:59] 	 epoch : 064/300 	 Epoch loss:17.406489 	 Average loss:0.000290 	 Accuracy: 0.9912 	 Testing Accuracy: 0.9310
+[2023/03/18 22:16:13] 	 epoch : 065/300 	 Epoch loss:15.734751 	 Average loss:0.000262 	 Accuracy: 0.9925 	 Testing Accuracy: 0.9317
+[2023/03/18 22:16:27] 	 epoch : 066/300 	 Epoch loss:14.639543 	 Average loss:0.000244 	 Accuracy: 0.9934 	 Testing Accuracy: 0.9324
+[2023/03/18 22:16:27] 	 ### saving best model ###
+[2023/03/18 22:16:42] 	 epoch : 067/300 	 Epoch loss:13.873200 	 Average loss:0.000231 	 Accuracy: 0.9942 	 Testing Accuracy: 0.9321
+[2023/03/18 22:16:57] 	 epoch : 068/300 	 Epoch loss:13.092354 	 Average loss:0.000218 	 Accuracy: 0.9947 	 Testing Accuracy: 0.9312
+[2023/03/18 22:17:12] 	 epoch : 069/300 	 Epoch loss:12.504171 	 Average loss:0.000208 	 Accuracy: 0.9950 	 Testing Accuracy: 0.9306
+[2023/03/18 22:17:27] 	 epoch : 070/300 	 Epoch loss:11.745835 	 Average loss:0.000196 	 Accuracy: 0.9956 	 Testing Accuracy: 0.9314
+[2023/03/18 22:17:42] 	 epoch : 071/300 	 Epoch loss:11.176451 	 Average loss:0.000186 	 Accuracy: 0.9959 	 Testing Accuracy: 0.9305
+[2023/03/18 22:17:57] 	 epoch : 072/300 	 Epoch loss:11.114156 	 Average loss:0.000185 	 Accuracy: 0.9961 	 Testing Accuracy: 0.9312
+[2023/03/18 22:18:12] 	 epoch : 073/300 	 Epoch loss:10.259648 	 Average loss:0.000171 	 Accuracy: 0.9968 	 Testing Accuracy: 0.9325
+[2023/03/18 22:18:12] 	 ### saving best model ###
+[2023/03/18 22:18:27] 	 epoch : 074/300 	 Epoch loss:9.984377 	 Average loss:0.000166 	 Accuracy: 0.9968 	 Testing Accuracy: 0.9299
+[2023/03/18 22:18:42] 	 epoch : 075/300 	 Epoch loss:9.783012 	 Average loss:0.000163 	 Accuracy: 0.9970 	 Testing Accuracy: 0.9299
+[2023/03/18 22:18:57] 	 epoch : 076/300 	 Epoch loss:9.235133 	 Average loss:0.000154 	 Accuracy: 0.9976 	 Testing Accuracy: 0.9310
+[2023/03/18 22:19:12] 	 epoch : 077/300 	 Epoch loss:9.105874 	 Average loss:0.000152 	 Accuracy: 0.9974 	 Testing Accuracy: 0.9306
+[2023/03/18 22:19:27] 	 epoch : 078/300 	 Epoch loss:8.612044 	 Average loss:0.000144 	 Accuracy: 0.9977 	 Testing Accuracy: 0.9299
+[2023/03/18 22:19:42] 	 epoch : 079/300 	 Epoch loss:8.685954 	 Average loss:0.000145 	 Accuracy: 0.9977 	 Testing Accuracy: 0.9293
+[2023/03/18 22:19:57] 	 epoch : 080/300 	 Epoch loss:8.014183 	 Average loss:0.000134 	 Accuracy: 0.9981 	 Testing Accuracy: 0.9298
+[2023/03/18 22:20:12] 	 epoch : 081/300 	 Epoch loss:7.402277 	 Average loss:0.000123 	 Accuracy: 0.9987 	 Testing Accuracy: 0.9299
+[2023/03/18 22:20:27] 	 epoch : 082/300 	 Epoch loss:7.453879 	 Average loss:0.000124 	 Accuracy: 0.9983 	 Testing Accuracy: 0.9300
+[2023/03/18 22:20:42] 	 epoch : 083/300 	 Epoch loss:7.491788 	 Average loss:0.000125 	 Accuracy: 0.9986 	 Testing Accuracy: 0.9297
+[2023/03/18 22:20:57] 	 epoch : 084/300 	 Epoch loss:7.079693 	 Average loss:0.000118 	 Accuracy: 0.9988 	 Testing Accuracy: 0.9307
+[2023/03/18 22:21:12] 	 epoch : 085/300 	 Epoch loss:7.099948 	 Average loss:0.000118 	 Accuracy: 0.9989 	 Testing Accuracy: 0.9297
+[2023/03/18 22:21:26] 	 epoch : 086/300 	 Epoch loss:7.128888 	 Average loss:0.000119 	 Accuracy: 0.9988 	 Testing Accuracy: 0.9301
+[2023/03/18 22:21:42] 	 epoch : 087/300 	 Epoch loss:7.189503 	 Average loss:0.000120 	 Accuracy: 0.9988 	 Testing Accuracy: 0.9297
+[2023/03/18 22:21:57] 	 epoch : 088/300 	 Epoch loss:6.880605 	 Average loss:0.000115 	 Accuracy: 0.9990 	 Testing Accuracy: 0.9302
+[2023/03/18 22:22:12] 	 epoch : 089/300 	 Epoch loss:7.033796 	 Average loss:0.000117 	 Accuracy: 0.9990 	 Testing Accuracy: 0.9298
+[2023/03/18 22:22:27] 	 epoch : 090/300 	 Epoch loss:6.942190 	 Average loss:0.000116 	 Accuracy: 0.9989 	 Testing Accuracy: 0.9303
+[2023/03/18 22:22:43] 	 epoch : 091/300 	 Epoch loss:6.963183 	 Average loss:0.000116 	 Accuracy: 0.9989 	 Testing Accuracy: 0.9300
+[2023/03/18 22:22:58] 	 epoch : 092/300 	 Epoch loss:7.031870 	 Average loss:0.000117 	 Accuracy: 0.9989 	 Testing Accuracy: 0.9297
+[2023/03/18 22:23:14] 	 epoch : 093/300 	 Epoch loss:6.863208 	 Average loss:0.000114 	 Accuracy: 0.9989 	 Testing Accuracy: 0.9290
+[2023/03/18 22:23:30] 	 epoch : 094/300 	 Epoch loss:6.977145 	 Average loss:0.000116 	 Accuracy: 0.9988 	 Testing Accuracy: 0.9297
+[2023/03/18 22:23:45] 	 epoch : 095/300 	 Epoch loss:6.887031 	 Average loss:0.000115 	 Accuracy: 0.9990 	 Testing Accuracy: 0.9305
+[2023/03/18 22:24:01] 	 epoch : 096/300 	 Epoch loss:6.900173 	 Average loss:0.000115 	 Accuracy: 0.9989 	 Testing Accuracy: 0.9292
+[2023/03/18 22:24:17] 	 epoch : 097/300 	 Epoch loss:6.822792 	 Average loss:0.000114 	 Accuracy: 0.9988 	 Testing Accuracy: 0.9295
+[2023/03/18 22:24:33] 	 epoch : 098/300 	 Epoch loss:6.926227 	 Average loss:0.000115 	 Accuracy: 0.9988 	 Testing Accuracy: 0.9299
+[2023/03/18 22:24:49] 	 epoch : 099/300 	 Epoch loss:6.774279 	 Average loss:0.000113 	 Accuracy: 0.9991 	 Testing Accuracy: 0.9294
+[2023/03/18 22:25:04] 	 epoch : 100/300 	 Epoch loss:6.944341 	 Average loss:0.000116 	 Accuracy: 0.9990 	 Testing Accuracy: 0.9300
+[2023/03/18 22:25:20] 	 epoch : 101/300 	 Epoch loss:6.782026 	 Average loss:0.000113 	 Accuracy: 0.9989 	 Testing Accuracy: 0.9294
+[2023/03/18 22:25:35] 	 epoch : 102/300 	 Epoch loss:6.596674 	 Average loss:0.000110 	 Accuracy: 0.9991 	 Testing Accuracy: 0.9298
+[2023/03/18 22:25:51] 	 epoch : 103/300 	 Epoch loss:6.654108 	 Average loss:0.000111 	 Accuracy: 0.9990 	 Testing Accuracy: 0.9286
+[2023/03/18 22:26:07] 	 epoch : 104/300 	 Epoch loss:6.744316 	 Average loss:0.000112 	 Accuracy: 0.9990 	 Testing Accuracy: 0.9297
+[2023/03/18 22:26:22] 	 epoch : 105/300 	 Epoch loss:6.713890 	 Average loss:0.000112 	 Accuracy: 0.9991 	 Testing Accuracy: 0.9300
+[2023/03/18 22:26:38] 	 epoch : 106/300 	 Epoch loss:6.594105 	 Average loss:0.000110 	 Accuracy: 0.9991 	 Testing Accuracy: 0.9287
+[2023/03/18 22:26:53] 	 epoch : 107/300 	 Epoch loss:6.658279 	 Average loss:0.000111 	 Accuracy: 0.9989 	 Testing Accuracy: 0.9287
+[2023/03/18 22:27:08] 	 epoch : 108/300 	 Epoch loss:6.692366 	 Average loss:0.000112 	 Accuracy: 0.9991 	 Testing Accuracy: 0.9289
+[2023/03/18 22:27:24] 	 epoch : 109/300 	 Epoch loss:6.430767 	 Average loss:0.000107 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9297
+[2023/03/18 22:27:39] 	 epoch : 110/300 	 Epoch loss:6.438975 	 Average loss:0.000107 	 Accuracy: 0.9991 	 Testing Accuracy: 0.9296
+[2023/03/18 22:27:54] 	 epoch : 111/300 	 Epoch loss:6.353245 	 Average loss:0.000106 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9293
+[2023/03/18 22:28:09] 	 epoch : 112/300 	 Epoch loss:6.545394 	 Average loss:0.000109 	 Accuracy: 0.9988 	 Testing Accuracy: 0.9295
+[2023/03/18 22:28:23] 	 epoch : 113/300 	 Epoch loss:6.472347 	 Average loss:0.000108 	 Accuracy: 0.9990 	 Testing Accuracy: 0.9293
+[2023/03/18 22:28:38] 	 epoch : 114/300 	 Epoch loss:6.528437 	 Average loss:0.000109 	 Accuracy: 0.9990 	 Testing Accuracy: 0.9291
+[2023/03/18 22:28:52] 	 epoch : 115/300 	 Epoch loss:6.427878 	 Average loss:0.000107 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9293
+[2023/03/18 22:29:06] 	 epoch : 116/300 	 Epoch loss:6.471539 	 Average loss:0.000108 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9294
+[2023/03/18 22:29:21] 	 epoch : 117/300 	 Epoch loss:6.242149 	 Average loss:0.000104 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9308
+[2023/03/18 22:29:36] 	 epoch : 118/300 	 Epoch loss:6.341555 	 Average loss:0.000106 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9299
+[2023/03/18 22:29:52] 	 epoch : 119/300 	 Epoch loss:6.282306 	 Average loss:0.000105 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9300
+[2023/03/18 22:30:07] 	 epoch : 120/300 	 Epoch loss:6.282307 	 Average loss:0.000105 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9301
+[2023/03/18 22:30:22] 	 epoch : 121/300 	 Epoch loss:6.256475 	 Average loss:0.000104 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9304
+[2023/03/18 22:30:38] 	 epoch : 122/300 	 Epoch loss:6.368326 	 Average loss:0.000106 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9303
+[2023/03/18 22:30:54] 	 epoch : 123/300 	 Epoch loss:6.313162 	 Average loss:0.000105 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9300
+[2023/03/18 22:31:09] 	 epoch : 124/300 	 Epoch loss:6.244190 	 Average loss:0.000104 	 Accuracy: 0.9991 	 Testing Accuracy: 0.9305
+[2023/03/18 22:31:25] 	 epoch : 125/300 	 Epoch loss:6.331244 	 Average loss:0.000106 	 Accuracy: 0.9990 	 Testing Accuracy: 0.9290
+[2023/03/18 22:31:41] 	 epoch : 126/300 	 Epoch loss:6.378523 	 Average loss:0.000106 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9306
+[2023/03/18 22:31:56] 	 epoch : 127/300 	 Epoch loss:6.233799 	 Average loss:0.000104 	 Accuracy: 0.9991 	 Testing Accuracy: 0.9303
+[2023/03/18 22:32:12] 	 epoch : 128/300 	 Epoch loss:6.057741 	 Average loss:0.000101 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9300
+[2023/03/18 22:32:28] 	 epoch : 129/300 	 Epoch loss:6.063881 	 Average loss:0.000101 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9294
+[2023/03/18 22:32:44] 	 epoch : 130/300 	 Epoch loss:6.059196 	 Average loss:0.000101 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9300
+[2023/03/18 22:32:59] 	 epoch : 131/300 	 Epoch loss:6.181122 	 Average loss:0.000103 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9299
+[2023/03/18 22:33:14] 	 epoch : 132/300 	 Epoch loss:6.215682 	 Average loss:0.000104 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9297
+[2023/03/18 22:33:30] 	 epoch : 133/300 	 Epoch loss:6.190367 	 Average loss:0.000103 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9297
+[2023/03/18 22:33:46] 	 epoch : 134/300 	 Epoch loss:6.249312 	 Average loss:0.000104 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9297
+[2023/03/18 22:34:01] 	 epoch : 135/300 	 Epoch loss:6.082429 	 Average loss:0.000101 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9297
+[2023/03/18 22:34:16] 	 epoch : 136/300 	 Epoch loss:6.197699 	 Average loss:0.000103 	 Accuracy: 0.9991 	 Testing Accuracy: 0.9299
+[2023/03/18 22:34:31] 	 epoch : 137/300 	 Epoch loss:6.070338 	 Average loss:0.000101 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9299
+[2023/03/18 22:34:47] 	 epoch : 138/300 	 Epoch loss:6.096273 	 Average loss:0.000102 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9294
+[2023/03/18 22:35:02] 	 epoch : 139/300 	 Epoch loss:6.217938 	 Average loss:0.000104 	 Accuracy: 0.9991 	 Testing Accuracy: 0.9294
+[2023/03/18 22:35:17] 	 epoch : 140/300 	 Epoch loss:6.061650 	 Average loss:0.000101 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9288
+[2023/03/18 22:35:32] 	 epoch : 141/300 	 Epoch loss:6.056523 	 Average loss:0.000101 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9293
+[2023/03/18 22:35:46] 	 epoch : 142/300 	 Epoch loss:5.908732 	 Average loss:0.000098 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9296
+[2023/03/18 22:36:01] 	 epoch : 143/300 	 Epoch loss:5.916731 	 Average loss:0.000099 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9289
+[2023/03/18 22:36:15] 	 epoch : 144/300 	 Epoch loss:6.101471 	 Average loss:0.000102 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9300
+[2023/03/18 22:36:30] 	 epoch : 145/300 	 Epoch loss:5.890800 	 Average loss:0.000098 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9298
+[2023/03/18 22:36:45] 	 epoch : 146/300 	 Epoch loss:5.985039 	 Average loss:0.000100 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9303
+[2023/03/18 22:37:00] 	 epoch : 147/300 	 Epoch loss:5.969742 	 Average loss:0.000099 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9300
+[2023/03/18 22:37:15] 	 epoch : 148/300 	 Epoch loss:5.996628 	 Average loss:0.000100 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9308
+[2023/03/18 22:37:30] 	 epoch : 149/300 	 Epoch loss:5.853245 	 Average loss:0.000098 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9298
+[2023/03/18 22:37:46] 	 epoch : 150/300 	 Epoch loss:5.983022 	 Average loss:0.000100 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9302
+[2023/03/18 22:38:01] 	 epoch : 151/300 	 Epoch loss:5.818753 	 Average loss:0.000097 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9297
+[2023/03/18 22:38:16] 	 epoch : 152/300 	 Epoch loss:6.033738 	 Average loss:0.000101 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9295
+[2023/03/18 22:38:32] 	 epoch : 153/300 	 Epoch loss:5.891837 	 Average loss:0.000098 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9296
+[2023/03/18 22:38:47] 	 epoch : 154/300 	 Epoch loss:5.684147 	 Average loss:0.000095 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9292
+[2023/03/18 22:39:03] 	 epoch : 155/300 	 Epoch loss:5.923675 	 Average loss:0.000099 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9296
+[2023/03/18 22:39:18] 	 epoch : 156/300 	 Epoch loss:5.869539 	 Average loss:0.000098 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9306
+[2023/03/18 22:39:33] 	 epoch : 157/300 	 Epoch loss:5.782640 	 Average loss:0.000096 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9287
+[2023/03/18 22:39:48] 	 epoch : 158/300 	 Epoch loss:5.806366 	 Average loss:0.000097 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9286
+[2023/03/18 22:40:03] 	 epoch : 159/300 	 Epoch loss:5.769766 	 Average loss:0.000096 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9300
+[2023/03/18 22:40:18] 	 epoch : 160/300 	 Epoch loss:5.782170 	 Average loss:0.000096 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9288
+[2023/03/18 22:40:34] 	 epoch : 161/300 	 Epoch loss:5.688051 	 Average loss:0.000095 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9295
+[2023/03/18 22:40:49] 	 epoch : 162/300 	 Epoch loss:5.700319 	 Average loss:0.000095 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9295
+[2023/03/18 22:41:04] 	 epoch : 163/300 	 Epoch loss:5.834935 	 Average loss:0.000097 	 Accuracy: 0.9992 	 Testing Accuracy: 0.9293
+[2023/03/18 22:41:19] 	 epoch : 164/300 	 Epoch loss:5.905869 	 Average loss:0.000098 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9292
+[2023/03/18 22:41:33] 	 epoch : 165/300 	 Epoch loss:5.689635 	 Average loss:0.000095 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9293
+[2023/03/18 22:41:48] 	 epoch : 166/300 	 Epoch loss:5.705669 	 Average loss:0.000095 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9293
+[2023/03/18 22:42:03] 	 epoch : 167/300 	 Epoch loss:5.655351 	 Average loss:0.000094 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9290
+[2023/03/18 22:42:17] 	 epoch : 168/300 	 Epoch loss:5.585139 	 Average loss:0.000093 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9295
+[2023/03/18 22:42:32] 	 epoch : 169/300 	 Epoch loss:5.513790 	 Average loss:0.000092 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9297
+[2023/03/18 22:42:47] 	 epoch : 170/300 	 Epoch loss:5.610735 	 Average loss:0.000094 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9297
+[2023/03/18 22:43:02] 	 epoch : 171/300 	 Epoch loss:5.535267 	 Average loss:0.000092 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9295
+[2023/03/18 22:43:16] 	 epoch : 172/300 	 Epoch loss:5.594334 	 Average loss:0.000093 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9294
+[2023/03/18 22:43:32] 	 epoch : 173/300 	 Epoch loss:5.678782 	 Average loss:0.000095 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9298
+[2023/03/18 22:43:48] 	 epoch : 174/300 	 Epoch loss:5.403520 	 Average loss:0.000090 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9296
+[2023/03/18 22:44:04] 	 epoch : 175/300 	 Epoch loss:5.602354 	 Average loss:0.000093 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9291
+[2023/03/18 22:44:20] 	 epoch : 176/300 	 Epoch loss:5.602054 	 Average loss:0.000093 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9289
+[2023/03/18 22:44:36] 	 epoch : 177/300 	 Epoch loss:5.486298 	 Average loss:0.000091 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9295
+[2023/03/18 22:44:52] 	 epoch : 178/300 	 Epoch loss:5.540142 	 Average loss:0.000092 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9296
+[2023/03/18 22:45:08] 	 epoch : 179/300 	 Epoch loss:5.472337 	 Average loss:0.000091 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9304
+[2023/03/18 22:45:24] 	 epoch : 180/300 	 Epoch loss:5.638762 	 Average loss:0.000094 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9302
+[2023/03/18 22:45:39] 	 epoch : 181/300 	 Epoch loss:5.487673 	 Average loss:0.000091 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9291
+[2023/03/18 22:45:54] 	 epoch : 182/300 	 Epoch loss:5.489539 	 Average loss:0.000091 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9300
+[2023/03/18 22:46:10] 	 epoch : 183/300 	 Epoch loss:5.624253 	 Average loss:0.000094 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9296
+[2023/03/18 22:46:26] 	 epoch : 184/300 	 Epoch loss:5.458478 	 Average loss:0.000091 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9304
+[2023/03/18 22:46:41] 	 epoch : 185/300 	 Epoch loss:5.470431 	 Average loss:0.000091 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9293
+[2023/03/18 22:46:56] 	 epoch : 186/300 	 Epoch loss:5.325984 	 Average loss:0.000089 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9291
+[2023/03/18 22:47:11] 	 epoch : 187/300 	 Epoch loss:5.402752 	 Average loss:0.000090 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9301
+[2023/03/18 22:47:26] 	 epoch : 188/300 	 Epoch loss:5.333637 	 Average loss:0.000089 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9294
+[2023/03/18 22:47:41] 	 epoch : 189/300 	 Epoch loss:5.419792 	 Average loss:0.000090 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9295
+[2023/03/18 22:47:57] 	 epoch : 190/300 	 Epoch loss:5.494576 	 Average loss:0.000092 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9301
+[2023/03/18 22:48:12] 	 epoch : 191/300 	 Epoch loss:5.445268 	 Average loss:0.000091 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9289
+[2023/03/18 22:48:28] 	 epoch : 192/300 	 Epoch loss:5.333309 	 Average loss:0.000089 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9295
+[2023/03/18 22:48:43] 	 epoch : 193/300 	 Epoch loss:5.343377 	 Average loss:0.000089 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9296
+[2023/03/18 22:48:58] 	 epoch : 194/300 	 Epoch loss:5.161899 	 Average loss:0.000086 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9291
+[2023/03/18 22:49:13] 	 epoch : 195/300 	 Epoch loss:5.312911 	 Average loss:0.000089 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9294
+[2023/03/18 22:49:28] 	 epoch : 196/300 	 Epoch loss:5.320851 	 Average loss:0.000089 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9297
+[2023/03/18 22:49:43] 	 epoch : 197/300 	 Epoch loss:5.333003 	 Average loss:0.000089 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9296
+[2023/03/18 22:49:57] 	 epoch : 198/300 	 Epoch loss:5.340351 	 Average loss:0.000089 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9292
+[2023/03/18 22:50:12] 	 epoch : 199/300 	 Epoch loss:5.269183 	 Average loss:0.000088 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9293
+[2023/03/18 22:50:26] 	 epoch : 200/300 	 Epoch loss:5.279987 	 Average loss:0.000088 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9289
+[2023/03/18 22:50:41] 	 epoch : 201/300 	 Epoch loss:5.272881 	 Average loss:0.000088 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9286
+[2023/03/18 22:50:56] 	 epoch : 202/300 	 Epoch loss:5.298334 	 Average loss:0.000088 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9291
+[2023/03/18 22:51:11] 	 epoch : 203/300 	 Epoch loss:5.143602 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9299
+[2023/03/18 22:51:26] 	 epoch : 204/300 	 Epoch loss:5.111282 	 Average loss:0.000085 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9294
+[2023/03/18 22:51:42] 	 epoch : 205/300 	 Epoch loss:5.199052 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9296
+[2023/03/18 22:51:57] 	 epoch : 206/300 	 Epoch loss:5.136704 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9299
+[2023/03/18 22:52:12] 	 epoch : 207/300 	 Epoch loss:5.126668 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9288
+[2023/03/18 22:52:27] 	 epoch : 208/300 	 Epoch loss:5.256521 	 Average loss:0.000088 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9303
+[2023/03/18 22:52:42] 	 epoch : 209/300 	 Epoch loss:5.200255 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9292
+[2023/03/18 22:52:57] 	 epoch : 210/300 	 Epoch loss:5.102582 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9301
+[2023/03/18 22:53:13] 	 epoch : 211/300 	 Epoch loss:5.199774 	 Average loss:0.000087 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9292
+[2023/03/18 22:53:28] 	 epoch : 212/300 	 Epoch loss:5.233071 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9299
+[2023/03/18 22:53:44] 	 epoch : 213/300 	 Epoch loss:5.196090 	 Average loss:0.000087 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9291
+[2023/03/18 22:53:59] 	 epoch : 214/300 	 Epoch loss:5.234050 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9295
+[2023/03/18 22:54:14] 	 epoch : 215/300 	 Epoch loss:5.040853 	 Average loss:0.000084 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9296
+[2023/03/18 22:54:29] 	 epoch : 216/300 	 Epoch loss:5.192448 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9298
+[2023/03/18 22:54:44] 	 epoch : 217/300 	 Epoch loss:5.210813 	 Average loss:0.000087 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9296
+[2023/03/18 22:54:59] 	 epoch : 218/300 	 Epoch loss:5.215465 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9287
+[2023/03/18 22:55:14] 	 epoch : 219/300 	 Epoch loss:5.178837 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9295
+[2023/03/18 22:55:28] 	 epoch : 220/300 	 Epoch loss:5.159735 	 Average loss:0.000086 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9294
+[2023/03/18 22:55:43] 	 epoch : 221/300 	 Epoch loss:5.100510 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9295
+[2023/03/18 22:55:58] 	 epoch : 222/300 	 Epoch loss:5.117337 	 Average loss:0.000085 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9302
+[2023/03/18 22:56:13] 	 epoch : 223/300 	 Epoch loss:5.290497 	 Average loss:0.000088 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9294
+[2023/03/18 22:56:27] 	 epoch : 224/300 	 Epoch loss:5.217083 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9296
+[2023/03/18 22:56:42] 	 epoch : 225/300 	 Epoch loss:5.174626 	 Average loss:0.000086 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9293
+[2023/03/18 22:56:57] 	 epoch : 226/300 	 Epoch loss:5.227889 	 Average loss:0.000087 	 Accuracy: 0.9994 	 Testing Accuracy: 0.9305
+[2023/03/18 22:57:11] 	 epoch : 227/300 	 Epoch loss:5.264831 	 Average loss:0.000088 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9293
+[2023/03/18 22:57:26] 	 epoch : 228/300 	 Epoch loss:5.220130 	 Average loss:0.000087 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9303
+[2023/03/18 22:57:41] 	 epoch : 229/300 	 Epoch loss:5.123554 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9301
+[2023/03/18 22:57:56] 	 epoch : 230/300 	 Epoch loss:5.191367 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9296
+[2023/03/18 22:58:11] 	 epoch : 231/300 	 Epoch loss:5.156892 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9298
+[2023/03/18 22:58:27] 	 epoch : 232/300 	 Epoch loss:5.247633 	 Average loss:0.000087 	 Accuracy: 0.9993 	 Testing Accuracy: 0.9296
+[2023/03/18 22:58:42] 	 epoch : 233/300 	 Epoch loss:5.230529 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9294
+[2023/03/18 22:58:58] 	 epoch : 234/300 	 Epoch loss:5.130667 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9300
+[2023/03/18 22:59:13] 	 epoch : 235/300 	 Epoch loss:5.058777 	 Average loss:0.000084 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9296
+[2023/03/18 22:59:28] 	 epoch : 236/300 	 Epoch loss:5.162990 	 Average loss:0.000086 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9294
+[2023/03/18 22:59:44] 	 epoch : 237/300 	 Epoch loss:5.166820 	 Average loss:0.000086 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9296
+[2023/03/18 22:59:59] 	 epoch : 238/300 	 Epoch loss:5.115672 	 Average loss:0.000085 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9294
+[2023/03/18 23:00:15] 	 epoch : 239/300 	 Epoch loss:5.277365 	 Average loss:0.000088 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9298
+[2023/03/18 23:00:30] 	 epoch : 240/300 	 Epoch loss:5.193847 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9291
+[2023/03/18 23:00:46] 	 epoch : 241/300 	 Epoch loss:5.396529 	 Average loss:0.000090 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9299
+[2023/03/18 23:01:01] 	 epoch : 242/300 	 Epoch loss:5.175513 	 Average loss:0.000086 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9291
+[2023/03/18 23:01:17] 	 epoch : 243/300 	 Epoch loss:5.154433 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9291
+[2023/03/18 23:01:32] 	 epoch : 244/300 	 Epoch loss:5.173301 	 Average loss:0.000086 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9298
+[2023/03/18 23:01:48] 	 epoch : 245/300 	 Epoch loss:5.149764 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9290
+[2023/03/18 23:02:03] 	 epoch : 246/300 	 Epoch loss:5.106589 	 Average loss:0.000085 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9293
+[2023/03/18 23:02:19] 	 epoch : 247/300 	 Epoch loss:5.138064 	 Average loss:0.000086 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9296
+[2023/03/18 23:02:34] 	 epoch : 248/300 	 Epoch loss:5.101593 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9293
+[2023/03/18 23:02:49] 	 epoch : 249/300 	 Epoch loss:5.110299 	 Average loss:0.000085 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9296
+[2023/03/18 23:03:05] 	 epoch : 250/300 	 Epoch loss:5.159167 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9304
+[2023/03/18 23:03:20] 	 epoch : 251/300 	 Epoch loss:5.297506 	 Average loss:0.000088 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9302
+[2023/03/18 23:03:35] 	 epoch : 252/300 	 Epoch loss:5.108578 	 Average loss:0.000085 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9309
+[2023/03/18 23:03:50] 	 epoch : 253/300 	 Epoch loss:5.172130 	 Average loss:0.000086 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9301
+[2023/03/18 23:04:05] 	 epoch : 254/300 	 Epoch loss:5.247852 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9292
+[2023/03/18 23:04:20] 	 epoch : 255/300 	 Epoch loss:5.240703 	 Average loss:0.000087 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9298
+[2023/03/18 23:04:35] 	 epoch : 256/300 	 Epoch loss:5.124483 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9295
+[2023/03/18 23:04:50] 	 epoch : 257/300 	 Epoch loss:5.068258 	 Average loss:0.000084 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9294
+[2023/03/18 23:05:05] 	 epoch : 258/300 	 Epoch loss:5.173571 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9290
+[2023/03/18 23:05:20] 	 epoch : 259/300 	 Epoch loss:5.154170 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9289
+[2023/03/18 23:05:35] 	 epoch : 260/300 	 Epoch loss:5.116332 	 Average loss:0.000085 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9290
+[2023/03/18 23:05:50] 	 epoch : 261/300 	 Epoch loss:5.228204 	 Average loss:0.000087 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9294
+[2023/03/18 23:06:06] 	 epoch : 262/300 	 Epoch loss:5.073546 	 Average loss:0.000085 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9292
+[2023/03/18 23:06:22] 	 epoch : 263/300 	 Epoch loss:5.197945 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9293
+[2023/03/18 23:06:37] 	 epoch : 264/300 	 Epoch loss:5.048945 	 Average loss:0.000084 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9301
+[2023/03/18 23:06:52] 	 epoch : 265/300 	 Epoch loss:5.094945 	 Average loss:0.000085 	 Accuracy: 0.9998 	 Testing Accuracy: 0.9298
+[2023/03/18 23:07:08] 	 epoch : 266/300 	 Epoch loss:5.171579 	 Average loss:0.000086 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9293
+[2023/03/18 23:07:24] 	 epoch : 267/300 	 Epoch loss:5.239189 	 Average loss:0.000087 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9294
+[2023/03/18 23:07:39] 	 epoch : 268/300 	 Epoch loss:5.138296 	 Average loss:0.000086 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9291
+[2023/03/18 23:07:55] 	 epoch : 269/300 	 Epoch loss:5.198925 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9302
+[2023/03/18 23:08:10] 	 epoch : 270/300 	 Epoch loss:5.059613 	 Average loss:0.000084 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9293
+[2023/03/18 23:08:26] 	 epoch : 271/300 	 Epoch loss:5.010160 	 Average loss:0.000084 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9290
+[2023/03/18 23:08:41] 	 epoch : 272/300 	 Epoch loss:5.122419 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9296
+[2023/03/18 23:08:56] 	 epoch : 273/300 	 Epoch loss:5.155989 	 Average loss:0.000086 	 Accuracy: 0.9995 	 Testing Accuracy: 0.9291
+[2023/03/18 23:09:12] 	 epoch : 274/300 	 Epoch loss:5.115579 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9292
+[2023/03/18 23:09:28] 	 epoch : 275/300 	 Epoch loss:5.087274 	 Average loss:0.000085 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9295
+[2023/03/18 23:09:44] 	 epoch : 276/300 	 Epoch loss:5.180731 	 Average loss:0.000086 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9289
+[2023/03/18 23:10:00] 	 epoch : 277/300 	 Epoch loss:5.108658 	 Average loss:0.000085 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9304
+[2023/03/18 23:10:15] 	 epoch : 278/300 	 Epoch loss:5.217775 	 Average loss:0.000087 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9307
+[2023/03/18 23:10:31] 	 epoch : 279/300 	 Epoch loss:5.193085 	 Average loss:0.000087 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9299
+[2023/03/18 23:10:46] 	 epoch : 280/300 	 Epoch loss:5.174085 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9300
+[2023/03/18 23:11:02] 	 epoch : 281/300 	 Epoch loss:5.111063 	 Average loss:0.000085 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9295
+[2023/03/18 23:11:17] 	 epoch : 282/300 	 Epoch loss:5.121355 	 Average loss:0.000085 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9299
+[2023/03/18 23:11:33] 	 epoch : 283/300 	 Epoch loss:5.096111 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9296
+[2023/03/18 23:11:48] 	 epoch : 284/300 	 Epoch loss:5.040043 	 Average loss:0.000084 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9294
+[2023/03/18 23:12:04] 	 epoch : 285/300 	 Epoch loss:5.069565 	 Average loss:0.000084 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9294
+[2023/03/18 23:12:20] 	 epoch : 286/300 	 Epoch loss:5.043616 	 Average loss:0.000084 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9290
+[2023/03/18 23:12:36] 	 epoch : 287/300 	 Epoch loss:5.108329 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9295
+[2023/03/18 23:12:51] 	 epoch : 288/300 	 Epoch loss:5.095761 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9290
+[2023/03/18 23:13:06] 	 epoch : 289/300 	 Epoch loss:5.067834 	 Average loss:0.000084 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9292
+[2023/03/18 23:13:22] 	 epoch : 290/300 	 Epoch loss:5.061420 	 Average loss:0.000084 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9288
+[2023/03/18 23:13:37] 	 epoch : 291/300 	 Epoch loss:5.194788 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9293
+[2023/03/18 23:13:52] 	 epoch : 292/300 	 Epoch loss:4.997991 	 Average loss:0.000083 	 Accuracy: 0.9997 	 Testing Accuracy: 0.9300
+[2023/03/18 23:14:07] 	 epoch : 293/300 	 Epoch loss:5.211849 	 Average loss:0.000087 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9288
+[2023/03/18 23:14:23] 	 epoch : 294/300 	 Epoch loss:5.103363 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9289
+[2023/03/18 23:14:38] 	 epoch : 295/300 	 Epoch loss:5.150441 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9298
+[2023/03/18 23:14:53] 	 epoch : 296/300 	 Epoch loss:5.040013 	 Average loss:0.000084 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9290
+[2023/03/18 23:15:08] 	 epoch : 297/300 	 Epoch loss:5.070886 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9293
+[2023/03/18 23:15:24] 	 epoch : 298/300 	 Epoch loss:5.111231 	 Average loss:0.000085 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9293
+[2023/03/18 23:15:40] 	 epoch : 299/300 	 Epoch loss:5.181455 	 Average loss:0.000086 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9291
+[2023/03/18 23:15:56] 	 epoch : 300/300 	 Epoch loss:5.005435 	 Average loss:0.000083 	 Accuracy: 0.9996 	 Testing Accuracy: 0.9294
+
+=========================== Finished training ===========================
