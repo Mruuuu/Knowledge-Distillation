@@ -2,7 +2,7 @@
  * @Author: Yen-Ju Chen  mru.11@nycu.edu.tw
  * @Date: 2023-02-28 15:29:44
  * @LastEditors: Yen-Ju Chen  mru.11@nycu.edu.tw
- * @LastEditTime: 2023-03-20 21:06:29
+ * @LastEditTime: 2023-03-23 21:20:01
  * @FilePath: /mru/Knowledge-Distillation/ReadMe.md
  * @Description: 
  * 
@@ -10,7 +10,7 @@
 # Knowledge Distillation
 **2023 Spring, Data Science HW2**
 
-[\[Spec v1\]](./assests/HW2-Model%20Compression-v1.pdf), [\[Spec v2\]](./assests/HW2-Model%20Compression-v2.pdf), [\[Spec v3\]](./assests/HW2-Model%20Compression-v3.pdf), [\[Lecture\]](./assests/Lecture%202%20-%20Model%20Compression.pdf), [\[Report\]](./assests/hw2_report_311581010.pdf)
+[\[Spec v1\]](./assests/HW2-Model%20Compression-v1.pdf), [\[Spec v2\]](./assests/HW2-Model%20Compression-v2.pdf), [\[Spec v3\]](./assests/HW2-Model%20Compression-v3.pdf), [\[Lecture\]](./assests/Lecture%202%20-%20Model%20Compression.pdf), [\[Report\]](./assests/hw2_report_311581010.pdf), [/[Kaggle/]](https://www.kaggle.com/competitions/model-compression-on-fashion-mnist/overview)
 
 <br/>
 
